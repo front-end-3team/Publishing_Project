@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url(reset.css);
+
+/* body & scroll */
+body {
+  background-color: #1b1e1c;
+  color: #fff;
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: #00b388;
+}
+body::-webkit-scrollbar-track {
+  background: #1b1e1c;
+}
+
+/* hecton_logo */
+.hecton_logo {
+  background-image: url(https://www.hectonproject.com/_next/static/media/hero.83554134.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+.hecton_logo > img {
+  width: 35rem;
+  height: 6rem;
+}
+.hecton_logo > p {
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+/* hecton_story */
+.hecton_story {
+  margin-bottom: 5rem;
+  display: flex;
+}
+.hecton_story > img {
+  width: 50rem;
+  height: 40rem;
+}
+.story_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10rem;
+  line-height: 0.5rem;
+}
+.story_text > p:first-child {
+  font-size: 1.5rem;
+  color: #959d9b;
+}
+.story_text > p {
+  font-size: 3.5rem;
+}
+.story_text > a {
+  text-decoration: none;
+  color: #00b388;
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+/* hecton_doctors */
+.hecton_doctors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15rem;
+}
+.hecton_doctors > img {
+  width: 60rem;
+  height: 30rem;
+}
+.doctors_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  line-height: 0.5rem;
+}
+.doctors_text > p:first-child {
+  font-size: 1.5rem;
+  color: #959d9b;
+}
+.doctors_text > p {
+  font-size: 3.5rem;
+}
+.doctors_text > a {
+  text-decoration: none;
+  color: #00b388;
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+/* hecton_family */
+.hecton_family {
+  display: flex;
+  margin-bottom: 15rem;
+}
+.hecton_family > img {
+  width: 60rem;
+  height: 30rem;
+}
+.family_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  line-height: 0.5rem;
+}
+.family_text > p:first-child {
+  font-size: 1.5rem;
+  color: #959d9b;
+}
+.family_text > p {
+  font-size: 3.5rem;
+}
+.family_text > a {
+  text-decoration: none;
+  color: #00b388;
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+/* hecton_culture */
+.hecton_culture {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rem;
+}
+.hecton_culture > img {
+  width: 60rem;
+  height: 30rem;
+}
+.culture_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  line-height: 0.5rem;
+}
+.culture_text > p:first-child {
+  font-size: 1.5rem;
+  color: #959d9b;
+}
+.culture_text > p {
+  font-size: 3.5rem;
+}
+.culture_text > a {
+  text-decoration: none;
+  color: #00b388;
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 1rem;
+}
