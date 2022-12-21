@@ -19,7 +19,9 @@ header {
     margin: auto;
 }
 
-.header_logo {
+/* Main Logo */
+
+.main_logo {
     margin: 20px 0 0 0;
 }
 
@@ -28,6 +30,8 @@ img {
     width: 117px;
     justify-content: center;
 }
+
+/* Menu */
 
 .menu {
     display: flex;
