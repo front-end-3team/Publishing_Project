@@ -1,2 +1,20 @@
 @charset "utf-8";
 @import url(reset.css);
+
+.service_qna {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.service_qna > div {
+    width: 1200px;
+}
+
+.service_qna_title > h3 {
+    font-size: 2.95rem;
+}
+
+.service_form {
+    display: flex;
+}
