@@ -31,9 +31,10 @@ body::-webkit-scrollbar-track {
 .hecton_logo > img {
   width: 35rem;
   height: 6rem;
+  margin-bottom: 1.5rem;
 }
 .hecton_logo > p {
-  line-height: 3rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   font-size: 1.7rem;
 }
