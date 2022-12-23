@@ -240,15 +240,15 @@ th {
 }
 /* body & scroll */
 body {
-  background-color: #1b1e1c;
-  color: #fff;
+    background-color: #1b1e1c;
+    color: #fff;
 }
 body::-webkit-scrollbar {
-  width: 0.6rem;
+    width: 0.6rem;
 }
 body::-webkit-scrollbar-thumb {
-  background: #00b388;
+    background: #00b388;
 }
 body::-webkit-scrollbar-track {
-  background: #1b1e1c;
+    background: #1b1e1c;
 }
