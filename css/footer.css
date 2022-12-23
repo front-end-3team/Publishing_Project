@@ -1,15 +1,11 @@
 footer {
-    height: 315px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 70px;
-    border-top: 1px solid rgb(220, 216, 216);
-    background: #1b1e1c;
-    color: #f1f1f5;
-
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  height: 315px;
+  border-top: 1px solid rgb(220, 216, 216);
+  background: #1b1e1c;
+  color: #f1f1f5;
 }
 
 .footer_wrap {
