@@ -4,16 +4,9 @@
 /* Service area */
 
 .service_qna {
-    width: 100%;
-    justify-content: center;
-    margin-top: 9.5rem;
+    width: 1080px;
+    margin: 200px 0 0 230px;
     color: #1b1e1c;
-    /* text-align: left; */
-}
-
-.service_qna > div {
-    width: 1200px;
-    justify-content: center;
 }
 
 /* Service Title */
@@ -22,15 +15,156 @@
     font-size: 2.95rem;
 }
 
-/* Form left */
+.service_qna_title > div {
+    margin: 27px 0px 0px 0px;
+}
+
+.service_qna_title > div > p:last-child {
+    padding: 10px 0 0 0;
+}
+
+.service_qna_title > div > p {
+    font-size: 1.35rem;
+}
+
 .service_form {
     display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+
+input {
+    width: 33rem;
+    height: 3.05rem;
+    padding: 1rem;
+    margin: 10px 0 0 0;
+    font-size: 1.2rem;
+    border: 1px solid #1b1e1c;
+}
+
+input:focus {
+    border: 2px solid #00b388;
+    outline: none;
+}
+
+/* Form left */
+.service_form > div {
+    width: 33rem;
+}
+
+.service_form > div > div > p {
+    font-size: 16.5px;
+    color: #49504e;
+    margin-bottom: 7px;
+    font-weight: 540;
+}
+
+.service_form > div > div {
+    margin: 20px 0 0 0;
+}
+
+span {
+    font-size: 13.5px;
+}
+
+.form_check {
+    width: 33rem;
+    border: 1px solid #1b1e1c;
+    margin: 20px 0 0 0;
+    padding: 1.1rem;
+    color: #8a8c8b;
+}
+
+.form_check > div {
+    display: flex;
+    align-items: center;
+}
+
+input[type='checkbox'] {
+    height: 1.3rem;
+    width: 1.3rem;
+    border: 2px solid #000;
+}
+
+input[type='checkbox']:checked {
+    accent-color: #00b388;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.privacy {
+    margin: 0 0 0 10px;
 }
 
 /* Form right */
+textarea {
+    width: 33rem;
+    height: 32.5rem;
+    margin: 0 0 5px 0;
+    text-align: top;
+    line-height: 32.5rem;
+    cursor: text;
+    font-weight: 400;
+    box-shadow: none;
+    resize: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 1px solid #1b1e1c;
+}
+
+textarea:focus {
+    border: 2px solid #00b388;
+    outline: none;
+}
+
+button {
+    width: 33rem;
+    height: 4.05rem;
+    background-color: #b3b5b4;
+}
+
+button > p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
 
 /* Info area */
 
 .hecton_info {
-    margin-top: 9.5rem;
+    width: 1080px;
+    margin: 200px 0 0 230px;
+    color: #1b1e1c;
+}
+
+.info > h3 {
+    font-size: 2.95rem;
+}
+
+.info_address_n_num {
+    font-size: 1.35rem;
+}
+
+.info_address_n_num > p {
+    margin: 10px 0 0 0;
+}
+
+.hecton_number {
+    display: flex;
+}
+
+.hecton_number > p {
+    margin: 10px 0 0 0px;
+}
+
+.hecton_number > p:last-child {
+    /* margin: 0 10px 0 0px; */
+    padding: 0 0px 0 10px;
+}
+
+#map {
+    width: 100%;
+    height: 700px;
+    margin-top: 2rem;
+    margin-bottom: 100px;
 }
