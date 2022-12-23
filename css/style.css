@@ -304,13 +304,11 @@ header {
 /* footer */
 
 footer {
-  height: 315px;
-}
-
-footer {
   display: flex;
   justify-content: space-between;
   padding: 70px;
+  border-top: 1px solid rgb(220, 216, 216);
+  height: 315px;
 }
 
 .footer_wrap {
