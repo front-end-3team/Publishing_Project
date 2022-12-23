@@ -5,14 +5,15 @@
 
 .service_qna {
     width: 1080px;
-    margin: 200px 0 0 230px;
+    margin: 150px auto;
     color: #1b1e1c;
+    /* padding-top: 10rem; */
 }
 
 /* Service Title */
 
 .service_qna_title > h3 {
-    font-size: 2.95rem;
+    font-size: 2.3rem;
 }
 
 .service_qna_title > div {
@@ -24,7 +25,8 @@
 }
 
 .service_qna_title > div > p {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
+    font-family: Spoqa Han Sans, sans-serif;
 }
 
 .service_form {
@@ -52,7 +54,7 @@ input:focus {
     width: 33rem;
 }
 
-.service_form > div > div > p {
+.form_p {
     font-size: 16.5px;
     color: #49504e;
     margin-bottom: 7px;
@@ -63,8 +65,36 @@ input:focus {
     margin: 20px 0 0 0;
 }
 
-span {
-    font-size: 13.5px;
+.form_file > div {
+    display: flex;
+}
+
+label,
+.file_button {
+    height: 3.05rem;
+    padding: 0.5rem;
+}
+
+label {
+    width: 27rem;
+    border: 1px solid #1b1e1c;
+}
+
+.file_button {
+    width: 8rem;
+    background-color: #49504e;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.file_button:hover {
+    background-color: #959d9b;
+}
+
+.file_alert {
+    font-size: 12.8px;
+    color: #8a8c8b;
 }
 
 .form_check {
@@ -75,9 +105,22 @@ span {
     color: #8a8c8b;
 }
 
+.form_check > span {
+    font-size: 0.87rem;
+    margin-top: 8px;
+    line-height: 1.3rem;
+    display: block;
+    font-weight: 300;
+}
+
+a:visited {
+    color: inherit;
+}
+
 .form_check > div {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 input[type='checkbox'] {
@@ -99,7 +142,7 @@ input[type='checkbox']:checked {
 /* Form right */
 textarea {
     width: 33rem;
-    height: 32.5rem;
+    height: 32rem;
     margin: 0 0 5px 0;
     text-align: top;
     line-height: 32.5rem;
@@ -138,11 +181,12 @@ button > p {
 }
 
 .info > h3 {
-    font-size: 2.95rem;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
 }
 
 .info_address_n_num {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
 }
 
 .info_address_n_num > p {

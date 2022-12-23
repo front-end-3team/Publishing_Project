@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <link rel="stylesheet" href="../css/contact.css" />
         <link rel="stylesheet" href="../css/header.css" />
         <title>CONTACT</title>
@@ -74,47 +73,48 @@
                     <!-- Form left -->
                     <div>
                         <div class="form_name">
-                            <p>이름</p>
+                            <p class="form_p">이름</p>
                             <input type="text" placeholder="이름을 입력해 주세요" required />
                         </div>
                         <div class="form_number">
-                            <p>연락처</p>
+                            <p class="form_p">연락처</p>
                             <input type="text" placeholder="연락처를 입력해 주세요" required />
                         </div>
                         <div class="form_email">
-                            <p>이메일</p>
+                            <p class="form_p">이메일</p>
                             <input type="text" placeholder="이메일을 입력해 주세요" required />
                         </div>
                         <div class="form_file">
-                            <p>파일 첨부 (선택)</p>
-                            <input type="text" placeholder="연락처를 입력해 주세요" />
-                            <span>
+                            <p class="form_p">파일 첨부 (선택)</p>
+                            <div>
+                                <label for="file"></label>
+                                <button type="button" class="file_button">파일 첨부</button>
+                            </div>
+                            <span class="file_alert">
                                 *20MB를 초과할 수 없으며 pdf, doc, docx, ppt, pptx, jpg, png,
                                 zip파일만 가능합니다
                             </span>
                         </div>
                         <div class="form_check">
-                            <strong>개인정보 수집 및 이용에 대한 안내</strong>
-                            <p>
+                            <strong>개인정보 수집 및 이용에 대한 안내</strong><br>
+                            <span>
                                 당사는 제휴/서비스 문의 대상으로부터 아래와 같이 개인정보를 수집하고
                                 있습니다.
-                            </p>
-                            <p>1. 수집 개인정보 항목</p>
-                            <p>(필수) 이름, 연락처, 메일주소, 제목, 내용</p>
-                            <p>(선택)파일첨부</p>
-                            <p>
+                            </span>
+                            <span>1. 수집 개인정보 항목<br>&nbsp;&nbsp;(필수) 이름, 연락처, 메일주소, 제목, 내용<br>&nbsp;&nbsp;(선택) 파일첨부</span>
+                            <span>
                                 2. 개인정보의 수집 및 이용목적 : 제휴/서비스 문의에 따른 본인확인 및
                                 원활한 의사소통 경로 확보
-                            </p>
-                            <p>
+                            </span>
+                            <span>
                                 3. 개인정보의 보유 및 이용기간 : 제휴/서비스 문의 종료 처리
                                 시점으로부터 1개월 간 보관 후 파기합니다.
-                            </p>
-                            <p>
+                            </span>
+                            <span>
                                 4. 동의 거부권리 안내 : 위와 같은 개인정보 수집 동의를 거부할 수
                                 있습니다. 다만 동의를 거부하는 경우 제휴/서비스 문의 신청이 제한될
-                                수 있습니다. 그 밖의 사항은 당사의 개인정보처리방침을 준수합니다.
-                            </p>
+                                수 있습니다. 그 밖의 사항은 당사의 <a href="https://hectonproject.com/term">개인정보처리방침</a>을 준수합니다.
+                            </span>
                             <div>
                                 <input type="checkbox" class="form_checkbox" required />
                                 <strong class="privacy">개인정보 수집 및 이용에 동의합니다.</strong>
@@ -125,11 +125,11 @@
                     <!-- Form right -->
                     <div>
                         <div>
-                            <p>제목</p>
+                            <p class="form_p">제목</p>
                             <input type="text" placeholder="제목을 입력해 주세요" required />
                         </div>
                         <div>
-                            <p>내용</p>
+                            <p class="form_p">내용</p>
                             <textarea type="text" class="form_content" required></textarea>
                         </div>
                         <div>
