@@ -21,7 +21,7 @@ header {
 
 /* Main Logo */
 
-img {
+.header_logo {
     height: 43px;
     width: 117px;
     justify-content: center;
