@@ -14,6 +14,7 @@
 
 .service_qna_title > h3 {
     font-size: 2.3rem;
+    letter-spacing: -2px;
 }
 
 .service_qna_title > div {
@@ -27,12 +28,14 @@
 .service_qna_title > div > p {
     font-size: 1.2rem;
     font-family: Spoqa Han Sans, sans-serif;
+    letter-spacing: -2px;
 }
 
 .service_form {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
+    letter-spacing: -2px;
 }
 
 input {
@@ -123,13 +126,13 @@ a:visited {
     margin-top: 10px;
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
     height: 1.3rem;
     width: 1.3rem;
     border: 2px solid #000;
 }
 
-input[type="checkbox"]:checked {
+input[type='checkbox']:checked {
     accent-color: #00b388;
     border-color: rgba(255, 255, 255, 0.3);
     color: white;
@@ -183,10 +186,12 @@ button > p {
 .info > h3 {
     font-size: 2.3rem;
     margin-bottom: 2rem;
+    letter-spacing: -2px;
 }
 
 .info_address_n_num {
     font-size: 1.2rem;
+    letter-spacing: -2px;
 }
 
 .info_address_n_num > p {
