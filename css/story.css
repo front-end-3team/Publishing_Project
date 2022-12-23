@@ -3,7 +3,7 @@
 
 /* 임시 작성 */
 header {
-  height: 6rem;
+  height: 96px;
   border-bottom: 1px solid #000;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@ header {
 }
 
 footer {
-  height: 16.25rem;
+  height: 260px;
   border-top: 1px solid #000;
   display: flex;
   justify-content: center;
@@ -31,8 +31,8 @@ footer {
 }
 
 #story h3 {
-  margin-bottom: 40px;
-  font-size: 2.95rem;
+  margin-bottom: 20px;
+  font-size: 35px;
   letter-spacing: -3px;
 }
 
@@ -56,11 +56,12 @@ footer {
 }
 
 .story_main .main_wrapper h1 {
-  width: 25vw;
-  font-size: 51px;
-  margin-left: 210px;
+  width: 30vw;
+  font-size: 54px;
+  line-height: 1.5;
+  margin-left: 190px;
   text-shadow: 1px 1px 20px #1e3250;
-  letter-spacing: -2px;
+  letter-spacing: -4px;
   color: #fff;
 }
 
@@ -70,7 +71,7 @@ footer {
 }
 
 .story_culture .culture_wrapper {
-  padding-top: 10rem;
+  padding-top: 160px;
 }
 
 .story_culture .culture_box {
@@ -90,9 +91,9 @@ footer {
 
 .story_culture .culture_box .culture_text_box h4 {
   letter-spacing: -1px;
-  font-size: 2.2658rem;
+  font-size: 32px;
   font-weight: 400;
-  margin-bottom: 0.855rem;
+  margin-bottom: 10px;
   letter-spacing: -3px;
 }
 
@@ -102,54 +103,51 @@ footer {
 }
 
 .story_culture .culture_box .culture_text_box .culture_text {
-  margin-top: 1rem;
   line-height: 1.8;
-  font-size: 1.1875rem;
-  margin-bottom: 1rem;
+  font-size: 17px;
+  margin-bottom: 16px;
 }
 
 .story_culture .culture_box .culture_text_box .culture_hash_item {
-  font-size: 1.1rem;
+  font-size: 14px;
   font-weight: 300;
   color: #00b388;
 }
 
 /****************** history area start ***************** */
 
-/* 진행 중 */
 .story_history {
 }
 
 .story_history .history_wrapper {
-  margin: 160px 0 220px;
-  padding-top: 10rem;
+  margin: 160px 0 200px;
+  padding-top: 160px;
   position: relative;
 }
 
 .history_section {
-  margin: 4rem 0 2rem;
+  margin: 64px 0 32px;
   display: flex;
-  font-size: 1.3rem;
+  font-size: 20px;
   line-height: 2;
 }
 
 .history_box {
   width: 50%;
-  padding-left: calc(15vw + 1rem);
+  padding-left: calc(15vw + 3rem);
 }
 
 .history_section.second .history_box {
-  padding-left: 5rem;
-  padding-left: 7rem;
+  padding-left: 80px;
 }
 
 .history_section.third .history_box {
-  padding-left: calc(15vw + 1rem);
+  padding-left: calc(15vw + 3rem);
 }
 
 .history_box h4 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: -2px;
 }
 
@@ -159,7 +157,8 @@ footer {
 
 .history_box ul > li {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 15px;
+  letter-spacing: -1.5px;
 }
 
 .history_box ul > li > span {
@@ -177,16 +176,20 @@ footer {
   z-index: 10;
 }
 
-.history_line:after {
+.history_line::before {
   content: "";
   display: block;
   position: absolute;
-  width: 1px;
-  /* height: 140%; */
-  background: #1b1e1c;
-  background: linear-gradient(1turn, #1b1e1c, #959d9b 85%, #1b1e1c);
-  top: 150px;
+  top: -50px;
   left: 50%;
+  width: 1px;
+  height: 105%;
+  background: linear-gradient(1turn, #1b1e1c, #959d9b 85%, #1b1e1c);
+}
+
+.history_line ul {
+  position: relative;
+  z-index: 1;
 }
 
 .history_ball {
@@ -194,23 +197,23 @@ footer {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  margin: 5.5rem auto;
+  margin: 68.8px auto;
 }
 
 .history_ball:nth-child(1) {
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 .history_ball:nth-child(2) {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.6rem;
+  height: 1.6rem;
   opacity: 0.9;
 }
 
 .history_ball:nth-child(3) {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.4rem;
+  height: 1.4rem;
   opacity: 0.8;
 }
 .history_ball:nth-child(4) {
@@ -277,6 +280,8 @@ footer {
 /****************** ci area start ***************** */
 
 .story_ci {
+  position: relative;
+  z-index: 10;
 }
 
 .story_ci .story_ci_container {
@@ -295,16 +300,17 @@ footer {
 }
 
 .story_ci .ci_intro_wrapper h3 {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .story_ci .ci_intro_wrapper .ci_intro_text_box {
   font-weight: 300;
   letter-spacing: -2px;
+  width: 70%;
 }
 
 .story_ci .ci_intro_wrapper .ci_intro_text_box p {
-  font-size: 30px;
+  font-size: 27px;
   line-height: 1.8;
 }
 .story_ci .ci_intro_wrapper .ci_intro_text_box span {
@@ -320,25 +326,21 @@ footer {
   position: absolute;
   bottom: 10rem;
   left: 4rem;
-  padding-right: 4rem;
+  padding-right: 64px;
 }
 
 .story_ci .ci_logo_wrapper .ci_logo_text_box p {
-  font-size: 1.3rem;
+  font-size: 20px;
   letter-spacing: -1.5px;
   line-height: 1.8;
 }
-
-/* .story_ci .ci_logo_wrapper {
-  background-color: #212524;
-} */
 
 .story_ci .ci_logo_wrap {
   background-color: #212524;
 }
 
 .story_ci .ci_logo_box {
-  padding: 0 0 8rem;
+  padding: 0 0 128px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -349,7 +351,7 @@ footer {
 }
 
 .story_ci .ci_logo_box .ci_logo p {
-  font-size: 1.2rem;
+  font-size: 19px;
 }
 
 .story_ci .ci_logo_box .ci_logo > div {
@@ -368,7 +370,7 @@ footer {
 }
 
 .story_color .color_text_box p {
-  font-size: 1.3rem;
+  font-size: 20px;
   letter-spacing: -1.5px;
   line-height: 1.8;
 }
@@ -376,27 +378,26 @@ footer {
 .story_color .color_box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 4rem 0px 12rem;
+  padding: 64px 0px 192px;
 }
 
 .story_color .color_box > div {
-  padding: 1.5rem;
-  /* width: 33.33%; */
-  min-height: 13rem;
+  padding: 16px;
+  min-height: 10rem;
 }
 
 .story_color .color_box .color_color_name {
   font-weight: 600;
-  font-size: 1.35rem;
+  font-size: 17.6px;
   letter-spacing: 0;
 }
 
 .story_color .color_box .color_color_code {
-  font-size: 1.1rem;
+  font-size: 17.6px;
 }
 
 .story_color .color_box .color_color_code strong {
-  margin-right: 0.2rem;
+  margin-right: 3.2px;
 }
 
 .story_color .color_box .color_white {
@@ -436,8 +437,8 @@ footer {
 }
 
 .story_agency .agency_wrapper {
-  padding-top: 10rem;
-  margin-bottom: 8rem;
+  padding-top: 160px;
+  margin-bottom: 128px;
 }
 
 .story_agency h3 {
@@ -447,15 +448,123 @@ footer {
 
 .story_agency .agency_info {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 17.6px;
   letter-spacing: -2px;
+}
+
+.story_agency .agency_map_section {
+  display: flex;
+  margin-top: 80px;
+}
+
+.story_agency .agency_map_img_box {
+  width: 50%;
+}
+
+.story_agency .agency_map {
+  width: 100%;
+  height: 40vw;
+  background: url(../assets/images/story/story_map.svg) 60% no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.story_agency .agency_map .agency_map_btn {
+  position: absolute;
+  color: #00b388;
+  border: 1px solid #00b388;
+  padding: 9px 13px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #1b1e1c;
+}
+
+.story_agency .agency_map .agency_map_btn.active {
+  background-color: #00b388;
+  color: #fff;
+}
+
+.story_agency .agency_map .agency_map_btn.first {
+  top: 6.9vw;
+  left: 19vw;
+}
+
+.story_agency .agency_map .agency_map_btn.second {
+  top: 6vw;
+  right: 13vw;
+}
+.story_agency .agency_map .agency_map_btn.third {
+  top: 15vw;
+  left: 19vw;
+}
+.story_agency .agency_map .agency_map_btn.fourth {
+  bottom: 21vw;
+  right: 10vw;
+}
+.story_agency .agency_map .agency_map_btn.fifth {
+  bottom: 13vw;
+  left: 18vw;
+}
+.story_agency .agency_map .agency_map_btn.sixth {
+  bottom: 12vw;
+  right: 12vw;
+}
+
+.story_agency .agency_map_table_box {
+  width: 50%;
+  display: none;
+}
+
+.story_agency .agency_map_table_box.active {
+  display: block;
+}
+
+.story_agency .agency_map_table_box h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 48px;
+  letter-spacing: -2px;
+}
+
+.story_agency .agency_map_table_box .agency_list_box {
+  width: 75%;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.story_agency .agency_map_table_box .agency_list {
+  display: flex;
+  padding: 10px 0;
+}
+.story_agency .agency_map_table_box .agency_list.first {
+  font-weight: 600;
+  color: #959d9b;
+  opacity: 0.7;
+  border-bottom: 1px solid #959d9b;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.story_agency .agency_map_table_box .agency_list span {
+  width: 33.3%;
+  font-weight: 500;
+  padding-right: 3px;
+}
+
+.story_agency .agency_map_table_box .agency_list .agency_name {
+  font-weight: 600;
 }
 
 /****************** family area start ***************** */
 
 .story_family {
   background: #fff;
-  padding: 10rem 0;
+  padding: 160px 0;
 }
 
 .story_family h3 {
@@ -465,7 +574,7 @@ footer {
 
 .story_family .family_img_wrapper {
   width: 60%;
-  margin: 10rem auto;
+  margin: 160px auto;
 }
 
 .story_family .family_img {
@@ -480,14 +589,14 @@ footer {
 
 .story_family .family_img > a {
   position: absolute;
-  width: 20rem;
+  width: 17rem;
   height: 5rem;
 }
 
 .story_family .family_img .family_logo_gccare {
   top: -2.5rem;
-  right: -7rem;
-  width: 13rem;
+  right: -4rem;
+  width: 11rem;
 }
 
 .story_family .family_img .family_logo_gccare > img {
@@ -495,18 +604,18 @@ footer {
 }
 
 .story_family .family_img .family_logo_ubcare {
-  bottom: 10rem;
-  right: -17rem;
+  bottom: 6rem;
+  right: -13rem;
 }
 
 .story_family .family_img .family_logo_bbros {
-  bottom: -2.5rem;
+  bottom: -1.5rem;
   left: -5rem;
 }
 
 .story_family .family_img .family_logo_gc {
-  top: 8.2rem;
-  left: -21rem;
+  top: 7.2rem;
+  left: -17rem;
 }
 
 .story_family .family_img > a > img {
