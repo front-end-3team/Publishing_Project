@@ -2,7 +2,7 @@
 @import url(reset.css);
 
 /* 임시 작성 */
-header {
+/* header {
   height: 96px;
   border-bottom: 1px solid #000;
   display: flex;
@@ -16,7 +16,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* story 공통 */
 
@@ -125,48 +125,48 @@ footer {
   position: relative;
 }
 
-.history_section {
+.story_history .history_section {
   margin: 64px 0 32px;
   display: flex;
   font-size: 20px;
   line-height: 2;
 }
 
-.history_box {
+.story_history .history_box {
   width: 50%;
   padding-left: calc(15vw + 3rem);
 }
 
-.history_section.second .history_box {
+.story_history .history_section.second .history_box {
   padding-left: 7rem;
 }
 
-.history_section.third .history_box {
+.story_history .history_section.third .history_box {
   padding-left: calc(15vw + 3rem);
 }
 
-.history_box h4 {
+.story_history .history_box h4 {
   font-weight: 600;
   font-size: 35px;
   letter-spacing: -2px;
 }
 
-.history_box h4 span {
+.story_history .history_box h4 span {
   color: #00b388;
 }
 
-.history_box ul > li {
+.story_history .history_box ul > li {
   font-weight: 300;
   font-size: 15px;
   letter-spacing: -1.5px;
 }
 
-.history_box ul > li > span {
+.story_history .history_box ul > li > span {
   margin-right: 15px;
   font-weight: 600;
 }
 
-.history_line {
+.story_history .history_line {
   position: absolute;
   width: 10rem;
   top: 15rem;
@@ -176,7 +176,7 @@ footer {
   z-index: 10;
 }
 
-.history_line::before {
+.story_history .history_line::before {
   content: "";
   display: block;
   position: absolute;
@@ -187,12 +187,12 @@ footer {
   background: linear-gradient(1turn, #1b1e1c, #959d9b 85%, #1b1e1c);
 }
 
-.history_line ul {
+.story_history .history_line ul {
   position: relative;
   z-index: 1;
 }
 
-.history_ball {
+.story_history .history_ball {
   background: #00b388;
   width: 1rem;
   height: 1rem;
@@ -200,18 +200,18 @@ footer {
   margin: 68.8px auto;
 }
 
-.history_ball:nth-child(1) {
+.story_history .history_ball:nth-child(1) {
   width: 1.8rem;
   height: 1.8rem;
 }
 
-.history_ball:nth-child(2) {
+.story_history .history_ball:nth-child(2) {
   width: 1.6rem;
   height: 1.6rem;
   opacity: 0.9;
 }
 
-.history_ball:nth-child(3) {
+.story_history .history_ball:nth-child(3) {
   width: 1.4rem;
   height: 1.4rem;
   opacity: 0.8;
@@ -221,57 +221,57 @@ footer {
   height: 1.2rem;
   opacity: 0.7;
 }
-.history_ball:nth-child(5) {
+.story_history .history_ball:nth-child(5) {
   width: 1.2rem;
   height: 1.2rem;
   opacity: 0.6;
 }
-.history_ball:nth-child(6) {
+.story_history .history_ball:nth-child(6) {
   width: 1.1rem;
   height: 1.1rem;
   opacity: 0.55;
 }
-.history_ball:nth-child(7) {
+.story_history .history_ball:nth-child(7) {
   width: 1rem;
   height: 1rem;
   opacity: 0.5;
 }
-.history_ball:nth-child(8) {
+.story_history .history_ball:nth-child(8) {
   width: 0.95rem;
   height: 0.95rem;
   opacity: 0.45;
 }
-.history_ball:nth-child(9) {
+.story_history .history_ball:nth-child(9) {
   width: 0.9rem;
   height: 0.9rem;
   opacity: 0.35;
 }
-.history_ball:nth-child(10) {
+.story_history .history_ball:nth-child(10) {
   width: 0.9rem;
   height: 0.9rem;
   opacity: 0.25;
 }
-.history_ball:nth-child(11) {
+.story_history .history_ball:nth-child(11) {
   width: 0.8rem;
   height: 0.8rem;
   opacity: 0.2;
 }
-.history_ball:nth-child(12) {
+.story_history .history_ball:nth-child(12) {
   width: 0.8rem;
   height: 0.8rem;
   opacity: 0.2;
 }
-.history_ball:nth-child(13) {
+.story_history .history_ball:nth-child(13) {
   width: 0.65rem;
   height: 0.65rem;
   opacity: 0.15;
 }
-.history_ball:nth-child(14) {
+.story_history .history_ball:nth-child(14) {
   width: 0.5rem;
   height: 0.5rem;
   opacity: 0.1;
 }
-.history_ball:nth-child(15) {
+.story_history .history_ball:nth-child(15) {
   width: 0.5rem;
   height: 0.5rem;
   opacity: 0.1;
