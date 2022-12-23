@@ -9,41 +9,41 @@ footer {
 }
 
 .footer_wrap {
-  display: flex;
+    display: flex;
 }
 
 .footer_list {
-  display: flex;
+    display: flex;
 }
 
 .footer_list ul a {
-  list-style: none;
-  padding-left: 50px;
-  line-height: 30px;
-  font-size: 15px;
-  color: rgb(196, 187, 187);
-  font-weight: 200;
+    list-style: none;
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(196, 187, 187);
+    font-weight: 200;
 }
 
 .footer_list > ul > li:first-child a {
-  font-weight: 800;
-  color: rgb(205, 201, 201);
+    font-weight: 800;
+    color: rgb(205, 201, 201);
 }
 
 .footer_hecton_info ul {
-  list-style: none;
-  line-height: 32px;
-  font-weight: 200;
+    list-style: none;
+    line-height: 32px;
+    font-weight: 200;
 }
 
 .footer_hecton_info ul > li:first-child {
-  font-weight: 500;
-  color: rgb(227, 219, 219);
+    font-weight: 500;
+    color: rgb(227, 219, 219);
 }
 
 .footer_hecton_info ul > li > a {
-  color: rgb(227, 219, 219);
-  text-decoration: underline;
-  font-weight: 500;
-  font-size: 18px;
+    color: rgb(227, 219, 219);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 18px;
 }
