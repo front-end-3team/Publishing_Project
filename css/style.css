@@ -8,14 +8,16 @@ header {
 }
 
 .article_1 img {
-  height: 600px;
+  height: 620px;
   width: 100%;
 }
 
 .article_1_const {
-  color: rgb(117, 164, 148);
+  color: #00b388;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
   font-size: 80px;
-  font-weight: 600;
+  font-weight: 800;
   position: absolute;
   top: 0;
   right: 0;
@@ -25,7 +27,7 @@ header {
 .article_1_const p {
   font-size: 85px;
   text-align: right;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .article_1_contant {
@@ -319,7 +321,7 @@ footer {
   display: flex;
 }
 
-.footer_list ul {
+.footer_list ul li a {
   list-style: none;
   padding-left: 50px;
   line-height: 30px;
@@ -328,7 +330,7 @@ footer {
   font-weight: 200;
 }
 
-.footer_list ul li:first-child {
+.footer_list > ul > li:first-child a {
   font-weight: 800;
   color: rgb(205, 201, 201);
 }
