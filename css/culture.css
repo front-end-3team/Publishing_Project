@@ -104,21 +104,21 @@ menu박스 가운데정렬, 글자가운데 정렬 */
   width: 120px;
 }
 
-/* article_1 */
-article {
+/* main */
+main {
   padding-top: 5.2rem;
 }
 
-.article_1 {
+.culture_main {
   position: relative;
 }
 
-.article_1 img {
+.culture_main img {
   height: 620px;
   width: 100%;
 }
 
-.article_1_const {
+.main_const {
   color: #00b388;
   mix-blend-mode: multiply;
   opacity: 0.5;
@@ -130,13 +130,13 @@ article {
   padding-right: 25px;
 }
 
-.article_1_const p {
+.main_const p {
   font-size: 85px;
   text-align: right;
   font-weight: 800;
 }
 
-.article_1_contant {
+.main_contant {
   width: 900px;
   position: absolute;
   bottom: 10%;
@@ -146,43 +146,44 @@ article {
   padding-left: 200px;
   margin-bottom: 10px;
 }
-.article_1_contant > h2 {
+.main_contant > h2 {
   font-size: 60px;
   padding-bottom: 13px;
 }
 
-.article_1_contant p {
+.main_contant p {
   font-size: 28px;
   line-height: 50px;
 }
 
-/* article_2 */
+/* culture_promise */
 
-.article_2 {
+.culture_promise {
   padding: 60px 200px 60px 200px;
 }
 
-.article_2 h2 {
+.culture_promise h2 {
   font-size: 40px;
   padding: 20px 0 20px 0;
 }
-.article_2_wrap {
+.promise_wrap {
   display: flex;
   justify-content: space-between;
 }
 
-.article_2_block {
+.promise_block {
   width: 350px;
 }
-.article_2_block_title {
+
+.promise_block_title {
   font-size: 28px;
   font-weight: 500;
   color: rgb(3, 179, 136);
   padding: 17px 0 17px 0;
-  border-bottom: 1px solid30px;
+  border-bottom: 1px solid rgb(220, 212, 212);
 }
 
-.article_2_block_contant {
+.promise_block_contant {
   font-size: 20px;
   color: rgb(195, 186, 186);
   padding: 17px 0 17px 0;
@@ -190,186 +191,186 @@ article {
   width: 300px;
 }
 
-/* article_3 */
+/* culture_benefit */
 
-.article_3 {
+.culture_benefit {
   padding: 60px 200px 60px 200px;
 }
 /* healing */
 
-.healing {
+.benefit_healing {
   padding-bottom: 100px;
   border-bottom: 1px solid rgb(122, 130, 126);
 }
 
-.healing > h2 {
+.benefit_healing > h2 {
   font-size: 40px;
   padding-bottom: 50px;
 }
 
-.healing > span {
+.benefit_healing > span {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 10px;
   color: rgb(3, 179, 136);
 }
 
-.healing > p {
+.benefit_healing > p {
   font-size: 23px;
   padding-bottom: 25px;
 }
 
-.healing ul {
+.benefit_healing ul {
   display: flex;
   justify-content: space-between;
 }
 
-.healing li {
+.benefit_healing li {
   width: 290px;
 }
 
-.healing img {
+.benefit_healing img {
   width: 285px;
   height: 210px;
 }
 
-.healing ul li h4 {
+.benefit_healing ul li h4 {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.healing ul li p {
+.benefit_healing ul li p {
   font-size: 18px;
   color: rgb(212, 201, 201);
 }
 
-/* creativity*/
+/* benefit_creativity*/
 
-.creativity {
+.benefit_creativity {
   padding-bottom: 100px;
   padding-top: 100px;
   border-bottom: 1px solid rgb(122, 130, 126);
 }
 
-.creativity span {
+.benefit_creativity span {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 10px;
   color: rgb(3, 179, 136);
 }
 
-.creativity p {
+.benefit_creativity p {
   font-size: 23px;
   padding-bottom: 25px;
 }
 
-.creativity ul {
+.benefit_creativity ul {
   display: flex;
   justify-content: space-between;
 }
 
-.creativity li {
+.benefit_creativity li {
   width: 290px;
 }
 
-.creativity img {
+.benefit_creativity img {
   width: 285px;
   height: 210px;
 }
 
-.creativity ul li h4 {
+.benefit_creativity ul li h4 {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.creativity ul li p {
+.benefit_creativity ul li p {
   font-size: 18px;
   color: rgb(212, 201, 201);
 }
 
-/* growth */
+/* benefit_growth */
 
-.growth {
+.benefit_growth {
   padding-bottom: 100px;
   padding-top: 100px;
   border-bottom: 1px solid rgb(122, 130, 126);
 }
 
-.growth span {
+.benefit_growth span {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 10px;
   color: rgb(3, 179, 136);
 }
 
-.growth p {
+.benefit_growth p {
   font-size: 23px;
   padding-bottom: 25px;
 }
 
-.growth ul {
+.benefit_growth ul {
   display: flex;
   justify-content: space-between;
 }
 
-.growth li {
+.benefit_growth li {
   width: 290px;
 }
 
-.growth img {
+.benefit_growth img {
   width: 285px;
   height: 210px;
 }
 
-.growth ul li h4 {
+.benefit_growth ul li h4 {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.growth ul li p {
+.benefit_growth ul li p {
   font-size: 18px;
   color: rgb(212, 201, 201);
 }
 
-/* communication */
+/* benefit_communication */
 
-.communication {
+.benefit_communication {
   padding-top: 100px;
   margin-bottom: 140px;
 }
 
-.communication span {
+.benefit_communication span {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 10px;
   color: rgb(3, 179, 136);
 }
 
-.communication p {
+.benefit_communication p {
   font-size: 23px;
   padding-bottom: 25px;
 }
 
-.communication ul {
+.benefit_communication ul {
   display: flex;
   justify-content: space-between;
 }
 
-.communication li {
+.benefit_communication li {
   width: 290px;
 }
 
-.communication img {
+.benefit_communication img {
   width: 285px;
   height: 210px;
 }
 
-.communication ul li h4 {
+.benefit_communication ul li h4 {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.communication ul li p {
+.benefit_communication ul li p {
   font-size: 18px;
   color: rgb(212, 201, 201);
 }
