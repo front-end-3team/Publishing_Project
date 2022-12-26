@@ -13,52 +13,52 @@ body::-webkit-scrollbar-track {
     background: #1b1e1c;
 }
 /* article_1 */
-article {
+main {
     padding-top: 5.2rem;
 }
-.article_1 {
+.doctors_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 25vh;
     padding: 0 50px;
 }
-.article_1_left {
+.doctors_head_left {
     display: flex;
 }
-.article_1_left_right {
+.doctors_head_left_right {
     padding-left: 100px;
 }
-.article_1_left_right > div:first-child {
+.doctors_head_left_right > div:first-child {
     color: rgb(148, 157, 155);
     font-weight: bold;
 }
-.article_1_left_right > div:first-child > span {
+.doctors_head_left_right > div:first-child > span {
     color: rgb(19, 152, 116);
 }
-.article_1_left_right > div:last-child {
+.doctors_head_left_right > div:last-child {
     font-size: 70px;
     font-weight: bold;
 }
-.article_1_left_left {
+.doctors_head_left_left {
     font-size: 23px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.article_1_left_left > div:first-child {
+.doctors_head_left_left > div:first-child {
     color: rgb(19, 152, 116);
     text-decoration: underline;
 }
-.article_1_left_left > div:last-child > a:hover {
+.doctors_head_left_left > div:last-child > a:hover {
     opacity: 0.7;
 }
-.article_1_left_left > div:last-child > a {
+.doctors_head_left_left > div:last-child > a {
     font-weight: bold;
     margin-top: 20px;
 }
 /* article_2 */
-.article_2 > img {
+.doctors_img1 > img {
     width: 100%;
 }
 /* .article_2::before {
@@ -69,63 +69,63 @@ article {
     position: absolute;
 } */
 /* article_3 */
-.article_3 {
+.doctors_img2 {
     border-bottom: 1px solid rgb(100, 106, 104);
     padding-bottom: 130px;
     border-bottom: 1px solid rgb(100, 106, 104);
 }
-.article_3_1 {
+.doctors_img2_1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-top: 130px;
 }
-.article_3_txt {
+.doctors_img2_txt {
     padding-right: 160px;
 }
-.article_3_txt > div {
+.doctors_img2_txt > div {
     font-size: 24px;
     color: rgb(148, 157, 155);
 }
-.article_3_txt > div:last-child {
+.doctors_img2_txt > div:last-child {
     color: white;
     font-weight: 600;
 }
-.article_3_txt > p {
+.doctors_img2_txt > p {
     font-size: 80px;
     margin-bottom: 20px;
     color: rgb(148, 157, 155);
 }
-.article_3_txt > p > span {
+.doctors_img2_txt > p > span {
     font-weight: bold;
     color: rgb(2, 179, 136);
 }
 /*  */
-.article_3_txt2 {
+.doctors_img2_txt2 {
     padding-left: 60px;
 }
-.article_3_txt2 > div {
+.doctors_img2_txt2 > div {
     font-size: 24px;
     color: rgb(148, 157, 155);
 }
-.article_3_txt2 > div:last-child {
+.doctors_img2_txt2 > div:last-child {
     color: white;
     font-weight: 600;
 }
-.article_3_txt2 > p {
+.doctors_img2_txt2 > p {
     font-size: 80px;
     margin-bottom: 20px;
     color: rgb(148, 157, 155);
 }
-.article_3_txt2 > p > span {
+.doctors_img2_txt2 > p > span {
     font-weight: bold;
     color: rgb(2, 179, 136);
 }
-.article_3 img {
+.doctors_img2 img {
     width: 860px;
 }
 
-.article_3_2 {
+.doctors_img2_2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -133,18 +133,18 @@ article {
 }
 
 /* article_4 */
-.article_4 {
+.doctors_solution_top {
     margin: 130px 0 0 150px;
     border-bottom: 1px solid rgb(100, 106, 104);
 }
-.article_4 > h3 {
+.doctors_solution_top > h3 {
     font-size: 40px;
     font-weight: bold;
 }
-.article_4 > p:first-child {
+.doctors_solution_top > p:first-child {
     padding-top: 30px;
 }
-.article_4 > p,
+.doctors_solution_top > p,
 h6 {
     font-size: 18px;
     font-weight: 600;
@@ -160,40 +160,40 @@ h6 {
     /* font-weight: 600; */
     padding-left: 10px;
 }
-.article_4 h6 {
+.doctors_solution_top h6 {
     padding-top: 60px;
 }
-.article_4 P {
+.doctors_solution_top P {
     padding-top: 15px;
 }
-.article_4 > h1 {
+.doctors_solution_top > h1 {
     font-size: 40px;
     margin-top: 100px;
     padding-bottom: 50px;
 }
 /* article_5 */
-.article_5 {
+.doctors_solution_bottom {
     margin-left: 150px;
     margin-top: 50px;
     padding-bottom: 250px;
 }
-.article_5 > h3 {
+.doctors_solution_bottom > h3 {
     font-size: 25px;
     margin-top: 40px;
 }
-.article_5 > p {
+.doctors_solution_bottom > p {
     font-weight: bold;
     color: rgb(148, 157, 155);
     margin-top: 15px;
 }
 
 /* article 6 */
-.article_6 {
+.doctors_under_btn {
     display: flex;
     justify-content: flex-end;
     border-bottom: 1px solid rgb(149, 154, 152);
 }
-.article_6_txt {
+.doctors_under_btn_txt {
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -202,13 +202,13 @@ h6 {
     font-size: 20px;
     color: rgb(139, 146, 144);
 }
-.article_6_txt > a {
+.doctors_under_btn_txt > a {
     color: rgb(2, 179, 136);
     padding-top: 20px;
     font-size: 23px;
     text-decoration: underline 2px;
 }
-.article_6_contact {
+.doctors_under_btn_contact {
     width: 350px;
     height: 150px;
     background-color: rgb(73, 80, 78);
@@ -218,12 +218,12 @@ h6 {
     position: relative;
     cursor: pointer;
 }
-.article_6_contact i {
+.doctors_under_btn_contact i {
     position: absolute;
     bottom: 10px;
     right: 20px;
 }
-.article_6_text {
+.doctors_under_btn_text {
     width: 350px;
     height: 150px;
     background-color: rgb(2, 179, 136);
@@ -233,12 +233,12 @@ h6 {
     position: relative;
     cursor: pointer;
 }
-.article_6_text i {
+.doctors_under_btn_text i {
     position: absolute;
     bottom: 10px;
     right: 20px;
 }
-.article_6_contact:hover,
-.article_6_text:hover {
+.doctors_under_btn_contact:hover,
+.doctors_under_btn_text:hover {
     opacity: 0.8;
 }

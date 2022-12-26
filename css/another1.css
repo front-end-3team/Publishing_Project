@@ -13,65 +13,65 @@ body::-webkit-scrollbar-track {
     background: #1b1e1c;
 }
 /* article */
-article {
+main {
     padding-top: 5.2rem;
 }
-.article_1 {
+.another_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 25vh;
     padding: 0 50px;
 }
-.article_1_left {
+.another_head_left {
     display: flex;
 }
-.article_1_left_right {
+.another_head_left_right {
     padding-left: 100px;
 }
-.article_1_left_right > div:first-child {
+.another_head_left_right > div:first-child {
     color: rgb(148, 157, 155);
     font-weight: bold;
 }
-.article_1_left_right > div:last-child {
+.another_head_left_right > div:last-child {
     font-size: 70px;
     font-weight: bold;
 }
-.article_1_left_left {
+.another_head_left_left {
     font-size: 23px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.article_1_left_left > div:last-child {
+.another_head_left_left > div:last-child {
     color: rgb(19, 152, 116);
     text-decoration: underline;
 }
-.article_1_left_left > div:first-child > a:hover {
+.another_head_left_left > div:first-child > a:hover {
     opacity: 0.7;
 }
-.article_1_left_left > div:first-child > a {
+.another_head_left_left > div:first-child > a {
     font-weight: bold;
     margin-top: 20px;
 }
-.article_2,
-.article_3 {
+.another_main_img,
+.another_video {
     background-color: rgb(248, 249, 252);
 }
-.article_2 > img {
+.another_main_img > img {
     width: 100%;
 }
-.article_3 > img {
+.another_video > img {
     width: 60vw;
 }
-.article_3 {
+.another_video {
     display: flex;
     justify-content: center;
     padding: 100px 0;
     background-color: rgb(248, 249, 252);
 }
 
-.article_4 {
+.another_contents {
     height: 125vh;
     background: #1b1e1c;
     display: flex;
@@ -79,27 +79,27 @@ article {
     padding-top: 220px;
     justify-content: space-evenly;
 }
-.article_4_circle {
+.another_contents_circle {
     width: 260px;
     height: 260px;
     background-color: rgb(241, 241, 245);
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.article_4_title {
+.another_contents_title {
     font-size: 30px;
     font-weight: bold;
     border-bottom: 1px solid rgb(100, 106, 104);
     padding: 0 100px;
     padding-bottom: 20px;
 }
-.article_4_1 {
+.another_contents_1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.article_4_1 > p {
+.another_contents_1 > p {
     color: rgb(199, 203, 202);
     font-size: 17px;
     width: 280px;
@@ -107,12 +107,12 @@ article {
     line-height: 35px;
     padding-top: 10px;
 }
-.article_4_1 > p > span {
+.another_contents_1 > p > span {
     color: white;
     font-weight: bold;
 }
 /* article_5 */
-.article_6 {
+.another_img_bottom {
     display: flex;
     justify-content: flex-end;
     border-bottom: 1px solid rgb(149, 154, 152);
@@ -124,13 +124,13 @@ article {
     position: relative;
     flex-direction: column;
 }
-.article_6 > p {
+.another_img_bottom > p {
     font-size: 22px;
     font-weight: bold;
     color: black;
     padding-top: 30px;
 }
-.article_6_txt {
+.another_img_bottom_txt {
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -140,13 +140,13 @@ article {
     color: rgb(139, 146, 144);
     position: relative;
 }
-.article_6_txt > a {
+.another_img_bottom_txt > a {
     color: rgb(2, 179, 136);
     padding-top: 20px;
     font-size: 23px;
     text-decoration: underline 2px;
 }
-.article_6_contact {
+.another_img_bottom_contact {
     width: 350px;
     height: 150px;
     background-color: rgb(73, 80, 78);
@@ -156,12 +156,12 @@ article {
     position: relative;
     cursor: pointer;
 }
-.article_6_contact i {
+.another_img_bottom_contact i {
     position: absolute;
     bottom: 10px;
     right: 20px;
 }
-.article_6_text {
+.another_img_bottom_text {
     width: 350px;
     height: 150px;
     background-color: rgb(2, 179, 136);
@@ -171,23 +171,23 @@ article {
     position: relative;
     cursor: pointer;
 }
-.article_6_text i {
+.another_img_bottom_text i {
     position: absolute;
     bottom: 10px;
     right: 20px;
 }
-.article_6_btn {
+.another_img_bottom_btn {
     display: flex;
 }
-.article_6_contact:hover,
-.article_6_text:hover {
+.another_img_bottom_contact:hover,
+.another_img_bottom_text:hover {
     opacity: 0.8;
 }
-.article_6_btn {
+.another_img_bottom_btn {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.article_6 > img {
+.another_img_bottom > img {
     width: 300px;
 }
