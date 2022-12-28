@@ -12,7 +12,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
     background: #1b1e1c;
 }
-/* article_1 */
+/* doctors_img1 */
 main {
     padding-top: 5.2rem;
 }
@@ -57,18 +57,12 @@ main {
     font-weight: bold;
     margin-top: 20px;
 }
-/* article_2 */
+/*  doctors_img1 */
 .doctors_img1 > img {
     width: 100%;
 }
-/* .article_2::before {
-    content: "";
-    background-color: blue;
-    height: 40vh;
-    width: 100%;
-    position: absolute;
-} */
-/* article_3 */
+
+/* doctors_img2 */
 .doctors_img2 {
     border-bottom: 1px solid rgb(100, 106, 104);
     padding-bottom: 130px;
@@ -100,7 +94,6 @@ main {
     font-weight: bold;
     color: rgb(2, 179, 136);
 }
-/*  */
 .doctors_img2_txt2 {
     padding-left: 60px;
 }
@@ -132,7 +125,7 @@ main {
     padding-top: 130px;
 }
 
-/* article_4 */
+/* doctors_solution */
 .doctors_solution_top {
     margin: 130px 0 0 150px;
     border-bottom: 1px solid rgb(100, 106, 104);
@@ -150,6 +143,7 @@ h6 {
     font-weight: 600;
     color: rgb(149, 154, 152);
 }
+/* doctors */
 .doctors {
     display: flex;
     align-items: center;
@@ -171,7 +165,6 @@ h6 {
     margin-top: 100px;
     padding-bottom: 50px;
 }
-/* article_5 */
 .doctors_solution_bottom {
     margin-left: 150px;
     margin-top: 50px;
@@ -187,7 +180,7 @@ h6 {
     margin-top: 15px;
 }
 
-/* article 6 */
+/* doctors_under_btn */
 .doctors_under_btn {
     display: flex;
     justify-content: flex-end;
