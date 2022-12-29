@@ -11,7 +11,11 @@
         <script src="https://kit.fontawesome.com/e935c3c421.js" crossorigin="anonymous"></script>
         <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../css/footer.css">
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
+   
     <body>
         <header> <div class="menu_var">
             <!-- Main Logo -->
@@ -55,10 +59,12 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
-            
-        </div></header>
+            </div>        
+        </div>
+    </header>
         <main>
+            <!-- Aos -->
+            <div data-aos="fade-up">
             <div class="doctors_head">
                 <div class="doctors_head_left">
                     <div class="doctors_head_left_left">
@@ -71,14 +77,14 @@
                     </div>
                 </div>
                 <div>
-                    <img src="https://www.hectonproject.comd/_next/static/media/doctors_icon.18cc1c27.svg" alt="" width="350px"></img>
+                    <img src="https://www.hectonproject.com/_next/static/media/doctors_icon.18cc1c27.svg" alt="" width="350px"></img>
                 </div>
             </div>
             <div class="doctors_img1">
                 <!--doctors_img1 -->
                 <img src="https://www.hectonproject.com/_next/static/media/doctors.b905f942.jpg" alt="">
             </div>
-
+        </div>
             <!-- doctors_img2 -->
             <div class="doctors_img2">
                 <div class="doctors_img2_1">
@@ -287,5 +293,8 @@
                     </ul>
                 </div>
           </footer>
+          <script>
+            AOS.init();
+        </script>
     </body>
 </html>
