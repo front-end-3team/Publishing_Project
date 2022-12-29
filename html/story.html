@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>story</title>
+        <!-- aos css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <!-- story css -->
         <link rel="stylesheet" href="../css/story.css" />
         <!-- header css -->
@@ -64,69 +66,84 @@
         <main>
             <!-- container area start  -->
             <div class="container">
-                <!-- main -->
-                <div class="story_main">
-                    <div class="main_wrapper">
-                        <h1>끊임없는 도전과 지속적인 혁신은 우리의 다짐이자 약속입니다</h1>
+                <div
+                    class="story_main_top"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
+                    <!-- main -->
+                    <div class="story_main">
+                        <div class="main_wrapper">
+                            <h1>끊임없는 도전과 지속적인 혁신은 우리의 다짐이자 약속입니다</h1>
+                        </div>
                     </div>
-                </div>
 
-                <!-- culture -->
-                <div id="story_culture" class="story_culture">
-                    <div class="culture_wrapper">
-                        <div class="inner_wrap">
-                            <h3>헥톤컬쳐</h3>
-                            <ul class="culture_box">
-                                <li class="culture_list">
-                                    <img
-                                        src="../assets/images/story/intro01.png"
-                                        alt="도전아이콘"
-                                    />
-                                    <div class="culture_text_box">
-                                        <h4>끊임없는 도전</h4>
-                                        <p class="culture_text">
-                                            불합리와 불편함에 끊임없이 고민하고 도전하겠습니다
-                                        </p>
-                                        <p class="culture_hash_item">#불합리에도전 #불편함에도전</p>
-                                    </div>
-                                </li>
-                                <li class="culture_list">
-                                    <img
-                                        src="../assets/images/story/intro02.png"
-                                        alt="혁신아이콘"
-                                    />
-                                    <div class="culture_text_box">
-                                        <h4>지속적인 혁신</h4>
-                                        <p class="culture_text">
-                                            IT기술을 활용하여 불합리와 불편함을 합리와 편리함으로
-                                            바꾸겠습니다
-                                        </p>
-                                        <p class="culture_hash_item">
-                                            #불합리를합리로 #불편함을편리함으로
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="culture_list">
-                                    <img
-                                        src="../assets/images/story/intro03.png"
-                                        alt="도전아이콘"
-                                    />
-                                    <div class="culture_text_box">
-                                        <h4>임팩트 있는 성장</h4>
-                                        <p class="culture_text">
-                                            끊임없는 도전과 완벽한 혁신으로 창의적 가치를
-                                            만들겠습니다
-                                        </p>
-                                        <p class="culture_hash_item">#완벽한혁신 #창의적가치</p>
-                                    </div>
-                                </li>
-                            </ul>
+                    <!-- culture -->
+                    <div id="story_culture" class="story_culture">
+                        <div class="culture_wrapper">
+                            <div class="inner_wrap">
+                                <h3>헥톤컬쳐</h3>
+                                <ul class="culture_box">
+                                    <li class="culture_list">
+                                        <img
+                                            src="../assets/images/story/intro01.png"
+                                            alt="도전아이콘"
+                                        />
+                                        <div class="culture_text_box">
+                                            <h4>끊임없는 도전</h4>
+                                            <p class="culture_text">
+                                                불합리와 불편함에 끊임없이 고민하고 도전하겠습니다
+                                            </p>
+                                            <p class="culture_hash_item">
+                                                #불합리에도전 #불편함에도전
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="culture_list">
+                                        <img
+                                            src="../assets/images/story/intro02.png"
+                                            alt="혁신아이콘"
+                                        />
+                                        <div class="culture_text_box">
+                                            <h4>지속적인 혁신</h4>
+                                            <p class="culture_text">
+                                                IT기술을 활용하여 불합리와 불편함을 합리와
+                                                편리함으로 바꾸겠습니다
+                                            </p>
+                                            <p class="culture_hash_item">
+                                                #불합리를합리로 #불편함을편리함으로
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="culture_list">
+                                        <img
+                                            src="../assets/images/story/intro03.png"
+                                            alt="도전아이콘"
+                                        />
+                                        <div class="culture_text_box">
+                                            <h4>임팩트 있는 성장</h4>
+                                            <p class="culture_text">
+                                                끊임없는 도전과 완벽한 혁신으로 창의적 가치를
+                                                만들겠습니다
+                                            </p>
+                                            <p class="culture_hash_item">#완벽한혁신 #창의적가치</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- history -->
-                <div id="story_history" class="story_history">
+                <div
+                    id="story_history"
+                    class="story_history"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
                     <div class="history_wrapper">
                         <div class="inner_wrap">
                             <h3>헥톤역사</h3>
@@ -210,7 +227,13 @@
                 </div>
 
                 <!-- ci -->
-                <div id="story_ci" class="story_ci">
+                <div
+                    id="story_ci"
+                    class="story_ci"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
                     <div class="story_ci_container">
                         <div class="ci_intro_wrapper">
                             <div class="inner_wrap">
@@ -274,7 +297,12 @@
                     </div>
                 </div>
                 <!-- color -->
-                <div class="story_color">
+                <div
+                    class="story_color"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
                     <div class="color_wrapper">
                         <div class="inner_wrap">
                             <h3>헥톤컬러</h3>
@@ -331,7 +359,13 @@
                     <!-- color_wrapper end -->
                 </div>
                 <!-- agency -->
-                <div id="story_agency" class="story_agency">
+                <div
+                    id="story_agency"
+                    class="story_agency"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
                     <div class="agency_wrapper">
                         <div class="inner_wrap">
                             <h3>헥톤 대리점</h3>
@@ -342,7 +376,7 @@
                             <div class="agency_map_section">
                                 <div class="agency_map_img_box">
                                     <div class="agency_map">
-                                        <p class="agency_map_btn first">수도권</p>
+                                        <p class="agency_map_btn first active">수도권</p>
                                         <p class="agency_map_btn second">강원권</p>
                                         <p class="agency_map_btn third">충청권</p>
                                         <p class="agency_map_btn fourth">대구/경북권</p>
@@ -529,7 +563,13 @@
                     </div>
                 </div>
                 <!-- family -->
-                <div id="story_family" class="story_family">
+                <div
+                    id="story_family"
+                    class="story_family"
+                    data-aos="fade-up"
+                    data-aos-duration="750"
+                    data-aos-easing="linear"
+                >
                     <div class="family_wrapper">
                         <div class="inner_wrap">
                             <h3>헥톤가족</h3>
@@ -638,5 +678,29 @@
                 </ul>
             </div>
         </footer>
+
+        <!-- js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            // 애니메이션
+            AOS.init();
+
+            // 지도 탭
+            const tabItem = document.querySelectorAll('.agency_map_btn');
+            const tabInner = document.querySelectorAll('.agency_map_table_box');
+            console.log(tabItem);
+            tabItem.forEach((tab, idx) => {
+                tab.addEventListener('click', function () {
+                    tabInner.forEach((inner) => {
+                        inner.classList.remove('active');
+                    });
+                    tabItem.forEach((item) => {
+                        item.classList.remove('active');
+                    });
+                    tabItem[idx].classList.add('active');
+                    tabInner[idx].classList.add('active');
+                });
+            });
+        </script>
     </body>
 </html>
