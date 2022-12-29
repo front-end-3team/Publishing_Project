@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>main</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
   </head>
   <body>
     <header>
-      <div class="menu_var">
+      <div class="menu_var" >
           <!-- Main Logo -->
           <div class="main_logo">
               <img class="header_logo" src="https://hectonproject.com/icon/logo.svg" />
@@ -58,7 +60,7 @@
   </header>
   <main>
     <!-- hecton_logo -->
-    <div class="hecton_logo">
+    <div class="hecton_logo" data-aos="fade-up" data-aos-duration="1000">
       <img
         src="https://www.hectonproject.com/icon/logo_k.svg"
         alt="first_img_text"
@@ -66,14 +68,13 @@
       <p>끊임없는 도전으로 지속적인 혁신을 만드는 일.</p>
       <p>헥톤프로젝트 다짐이며 약속입니다</p>
     </div>
-    </div>
 
     <!-- hecton_story -->
-    <div class="hecton_story">
+    <div class="hecton_story" >
       <img src="https://www.hectonproject.com/img/main0.jpg" alt="hectonproject_img">
       <div class="story_text">
         <p>STORY</p>
-        <p>헥톤프로젝트</p>
+        <p>헥톤프로젝트</p> 
           <a href="./story.html">알아보기 &rarr;</a>
       </div>
     </div>
@@ -85,12 +86,14 @@
         <P>닥터스</P>
           <a href="./doctors.html">알아보기 &rarr;</a>
       </div>
-      <img src="https://www.hectonproject.com/img/main1.jpg" alt="doctors_img">
+      <img src="https://www.hectonproject.com/img/main1.jpg" alt="doctors_img"
+      data-aos="fade-up" data-aos-duration="1000">
     </div>
 
     <!-- hecton_family -->
     <div class="hecton_family">
-      <img src="https://www.hectonproject.com/img/main2.jpg" alt="family_img">
+      <img src="https://www.hectonproject.com/img/main2.jpg" alt="family_img"
+      data-aos="fade-up" data-aos-duration="1000">
       <div class="family_text">
         <p>PROJECT</p>
         <P>또하나의가족</P>
@@ -105,82 +108,86 @@
         <P>헥톤컬쳐</P>
           <a href="./culture.html">알아보기 &rarr;</a>
       </div>
-      <img src="https://www.hectonproject.com/img/main3.jpg" alt="culture_img">
+      <img src="https://www.hectonproject.com/img/main3.jpg" alt="culture_img"
+      data-aos="fade-up" data-aos-duration="1000">
     </div>
 </main>
-    <footer>
-      <div class="footer_wrap">
-          <div class="footer_logo">
-                <img src="https://hectonproject.com/icon/logo.svg" width="110px"></img>
-            </div>
-            <div class="footer_list">
-              <ul>
-                  <li >
-                    <a href="#">STORY</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤컬쳐</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤역사</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤CI</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤대리점</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤가족</a>
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                    <a href="#">PROJECT</a>
-                  </li>
-                  <li>
-                    <a href="#">닥터스</a>
-                  </li>
-                  <li>
-                    <a href="#">또하나의가족</a>
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                    <a href="#">CULTURE</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤인의 다짐</a>
-                  </li>
-                  <li>
-                    <a href="#">헥톤인의 혜택</a>
-                  </li>
-                  <li>
-                    <a href="#">채용문의</a>
-                  </li>
-              </ul>
-              <ul>
-                  <li>
-                    <a href="#">CONTACT</a>
-                  </li>
-                  <li>
-                    <a href="#">제휴/서비스 문의</a>
-                  </li>
-                  <li>
-                    <a href="#">오시는 길</a>
-                  </li>
-              </ul>
-          </div>
-          </div>
-          <div class="footer_hecton_info">
-              <ul>
-                  <li>(주)헥톤프로젝트</li>
-                  <li>07335 서울특별시 영등포구 여의대로</li>
-                  <li>108, 31층 (여의도동, 파크윈타워2)</li>
-                  <li>brain@hectonproject.com</li>
-                  <li><a href="https://hectonproject.com/term">개인정보처리방침</a></li>
-              </ul>
-          </div>
-  </footer>
+<footer>
+  <div class="footer_wrap">
+    <div class="footer_logo">
+          <img src="https://hectonproject.com/icon/logo.svg" width="110px"></img>
+      </div>
+      <div class="footer_list">
+          <ul>
+              <li >
+                <a href="./story.html">STORY</a>
+              </li>
+              <li>
+                <a href="./story.html#story_culture">헥톤컬쳐</a>
+              </li>
+              <li>
+                <a href="./story.html#story_history">헥톤역사</a>
+              </li>
+              <li>
+                <a href="./story.html#story_ci">헥톤CI</a>
+              </li>
+              <li>
+                <a href="./story.html#story_agency">헥톤대리점</a>
+              </li>
+              <li>
+                <a href="./story.html#story_family">헥톤가족</a>
+              </li>
+          </ul>
+          <ul>
+              <li>
+                <a href="./doctors.html">PROJECT</a>
+              </li>
+              <li>
+                <a href="./doctors.html">닥터스</a>
+              </li>
+              <li>
+                <a href="./another.html">또하나의가족</a>
+              </li>
+          </ul>
+          <ul>
+              <li>
+                <a href="./culture.html">CULTURE</a>
+              </li>
+              <li>
+                <a href="./culture.html#culture_promise">헥톤인의 다짐</a>
+              </li>
+              <li>
+                <a href="./culture.html#culture_benefit">헥톤인의 혜택</a>
+              </li>
+              <li>
+                <a href="./culture.html#qna">채용문의</a>
+              </li>
+          </ul>
+          <ul>
+              <li>
+                <a href="./contact.html">CONTACT</a>
+              </li>
+              <li>
+                <a href="./contact.html#qna_form">제휴/서비스 문의</a>
+              </li>
+              <li>
+                <a href="./contact.html#information">오시는 길</a>
+              </li>
+          </ul>
+      </div>
+      </div>
+      <div class="footer_hecton_info">
+          <ul>
+              <li>(주)헥톤프로젝트</li>
+              <li>07335 서울특별시 영등포구 여의대로</li>
+              <li>108, 31층 (여의도동, 파크윈타워2)</li>
+              <li>brain@hectonproject.com</li>
+              <li><a href="https://hectonproject.com/term">개인정보처리방침</a></li>
+          </ul>
+      </div>
+    </footer>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
