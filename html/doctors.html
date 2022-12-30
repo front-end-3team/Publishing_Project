@@ -11,7 +11,11 @@
         <script src="https://kit.fontawesome.com/e935c3c421.js" crossorigin="anonymous"></script>
         <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../css/footer.css">
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </head>
+   
     <body>
         <header> <div class="menu_var">
             <!-- Main Logo -->
@@ -55,10 +59,12 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
-            
-        </div></header>
+            </div>        
+        </div>
+    </header>
         <main>
+            <!-- Aos -->
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div class="doctors_head">
                 <div class="doctors_head_left">
                     <div class="doctors_head_left_left">
@@ -71,14 +77,15 @@
                     </div>
                 </div>
                 <div>
-                    <img src="https://www.hectonproject.comd/_next/static/media/doctors_icon.18cc1c27.svg" alt="" width="350px"></img>
+                    <img src="https://www.hectonproject.com/_next/static/media/doctors_icon.18cc1c27.svg" alt="" width="350px"></img>
                 </div>
             </div>
             <div class="doctors_img1">
                 <!--doctors_img1 -->
                 <img src="https://www.hectonproject.com/_next/static/media/doctors.b905f942.jpg" alt="">
             </div>
-
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000">
             <!-- doctors_img2 -->
             <div class="doctors_img2">
                 <div class="doctors_img2_1">
@@ -124,8 +131,9 @@
                 <div class="doctors_img2_3"></div>
                 <div class="doctors_img2_4"></div>
             </div>
-
+        </div>
         <!-- doctors_solution_top -->
+        <div data-aos="fade-up" data-aos-duration="1000">
             <div class="doctors_solution_top">
                 <h3>닥터스 부가솔루션</h3>
                 <h6>닥터스 차별화의 핵심은 경쟁력 있는 부가솔루션입니다</h6>
@@ -189,9 +197,11 @@
                 <div>SIGN</div>
                 </div>
                 <P>오프라인 동의서의 출력/작성/스캔/보관업무를 원스탑으로 해결할 수 있는 전자동의서 솔루션</P>
-                <h1>닥터스 유통솔루션</h1>
             </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div class="doctors_solution_bottom">
+                <h1>닥터스 유통솔루션</h1>
                 <h3>미소몰닷컴</h3>
                 <p>의료소모품, 의약품, 기타 비품 등 2만 품목을 국내최저가로 구매할 수 있는 국내 1위 온라인쇼핑몰</p>
                 <h3>오토팩</h3>
@@ -199,7 +209,7 @@
                 <h3>서버</h3>
                 <p>닥터스EMR 사용에 최적화된 서버솔루션</p>
             </div>
-
+            </div>
             <!-- doctors_under_btn -->
             <div class="doctors_under_btn">
                 <div class="doctors_under_btn_txt">
@@ -287,5 +297,8 @@
                     </ul>
                 </div>
           </footer>
+          <script>
+            AOS.init();
+        </script>
     </body>
 </html>
