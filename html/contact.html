@@ -92,8 +92,9 @@
                         <div class="form_file">
                             <p class="form_p">파일 첨부 (선택)</p>
                             <div>
-                                <label for="file"></label>
-                                <button type="button" class="file_button">파일 첨부</button>
+                                <input for="file" class="upload-name" id="fileName" readonly />
+                                <label for="file" class="file_button">파일 첨부</label>
+                                <input type="file" id="file" onchange="javascript: document.getElementById('fileName').value = this.value"/>
                             </div>
                             <span class="file_alert">
                                 *20MB를 초과할 수 없으며 pdf, doc, docx, ppt, pptx, jpg, png,
@@ -121,8 +122,10 @@
                                 수 있습니다. 그 밖의 사항은 당사의 <a href="https://hectonproject.com/term">개인정보처리방침</a>을 준수합니다.
                             </span>
                             <div>
-                                <input type="checkbox" class="form_checkbox" required />
+                                <form name="form"> 
+                                <input type="checkbox" class="form_checkbox"/>
                                 <strong class="privacy">개인정보 수집 및 이용에 동의합니다.</strong>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -138,7 +141,7 @@
                             <textarea type="text" class="form_content" required></textarea>
                         </div>
                         <div>
-                            <button type="button">
+                            <button type="button" class="service_btn">
                                 <p>제휴/서비스 문의 보내기</p>
                             </button>
                         </div>
@@ -188,7 +191,7 @@
                 marker.setMap(map);  
             </script>
         </div>
-        
+
         <footer>
             <div class="footer_wrap">
                 <div class="footer_logo">
@@ -264,5 +267,7 @@
                 </div>
             </div>
         </footer>
+        <script src="../js/contact.js"></script>
+
     </body>
 </html>
