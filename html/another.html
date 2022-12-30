@@ -14,6 +14,9 @@
             rel="stylesheet"
             type="text/css"
         />
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <title>Document</title>
     </head>
     <body>
@@ -64,6 +67,7 @@
             </div>
         </header>
         <main>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div class="another_head">
                 <div class="another_head_left">
                     <div class="another_head_left_left">
@@ -77,11 +81,17 @@
                 </div>
             </div>
             <div class="another_main_img">
-                <img src="../assets/images/another/ddoga.bb59f3e4 (1).jpg" alt="" />
+                <img src="https://hectonproject.com/_next/static/media/ddoga.bb59f3e4.jpg" alt="">
             </div>
+        </div>
+        <div class="another_video_wrap">
             <div class="another_video">
                 <img src="https://hectonproject.com/img/poster.jpg" alt="" />
+                <button class="video_btn">1</button>
             </div>
+        </div>
+
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div class="another_contents">
                 <div class="another_contents_1">
                     <div class="another_contents_circle">
@@ -117,6 +127,7 @@
                         제공합니다
                     </p>
                 </div>
+            </div>
             </div>
             <div class="another_img_bottom">
                 <img
@@ -209,5 +220,8 @@
                     </ul>
                 </div>
           </footer>
+          <script>
+            AOS.init();
+        </script>
     </body>
 </html>
