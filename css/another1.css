@@ -55,39 +55,49 @@ main {
     margin-top: 20px;
 }
 /* another_main_img */
-.another_main_img,
-.another_video_wrap {
-    /* width: 50vw; */
-}
-.another_video > video {
-    width: 50vw;
-    background-color: rgb(248, 249, 252);
-}
 .another_main_img > img {
     width: 100%;
 }
 /* another_video */
-.another_video > img {
-    width: 60vw;
+.another_video {
+    height: 100vh;
+    background-color: rgb(248, 249, 252);
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.another_video_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.another_video_img > img,
+.another_video > video {
+    width: 65vw;
+    position: absolute;
+}
+.another_video_img > img {
+    z-index: 2;
+}
+.dis {
+    display: none;
+}
+.fa-solid {
+    position: absolute;
+    z-index: 50;
+    font-size: 44px;
 }
 .video_btn {
-    height: 5.5rem;
     width: 10rem;
+    height: 5.7rem;
     background-color: #00b388;
     border-radius: 15px;
+    z-index: 5;
     position: absolute;
-    bottom: 45%;
-    right: 45%;
 }
-
-.another_video {
-    display: flex;
-    justify-content: center;
-    padding: 100px 0;
-    background-color: rgb(248, 249, 252);
-    position: relative;
-}
-.another_video:hover .video_btn {
+.another_video_img:hover .video_btn {
     background-color: rgb(199, 203, 202);
 }
 /* another_contents */
