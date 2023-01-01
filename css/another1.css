@@ -51,9 +51,8 @@ main {
     background-color: white;
 }
 .another_main_img {
-    height: 100vh;
+    height: 100%;
 }
-
 /* another_video */
 .another_video {
     height: 100vh;
