@@ -48,7 +48,12 @@ main {
 /* another_main_img */
 .another_main_img > img {
     width: 100%;
+    background-color: white;
 }
+.another_main_img {
+    height: 105vh;
+}
+
 /* another_video */
 .another_video {
     height: 100vh;
