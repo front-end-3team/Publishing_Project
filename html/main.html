@@ -13,51 +13,72 @@
   </head>
   <bo dy>
     <header>
-      <div class="menu_var" >
+      <div class="menu_var">
           <!-- Main Logo -->
           <div class="main_logo">
               <img class="header_logo" src="https://hectonproject.com/icon/logo.svg" />
           </div>
 
           <!-- Menu -->
-          <div id="menu">
+          <div class="menu">
               <ul>
                   <li class="menu_story">
-                      <a href="#">STORY</a>
-                      <ul>
-                          <li>헥톤컬쳐</li>
-                          <li>헥톤역사</li>
-                          <li>헥톤CI</li>
-                          <li>헥톤대리점</li>
-                          <li>헥톤가족</li>
-                      </ul>
+                      <a class="story_menu" href="./story.html">STORY</a>
+                      <div class="hide-menu">
+                          <ul class="speech-bubble">
+                              <li><a href="./story.html#story_culture">헥톤컬쳐</a></li>
+                              <li><a href="./story.html#story_history">헥톤역사</a></li>
+                              <li><a href="./story.html#story_ci">헥톤CI</a></li>
+                              <li><a href="./story.html#story_agency">헥톤대리점</a></li>
+                              <li><a href="./story.html#story_family">헥톤가족</a></li>
+                          </ul>
+                      </div>
                   </li>
+
                   <li class="menu_project">
-                      <a href="#">PROJECT</a>
-                      <ul>
-                          <li>닥터스</li>
-                          <li>또하나의가족</li>
-                      </ul>
+                      <div class="menu_border">
+                          <a href="./doctors.html">PROJECT</a>
+                      </div>
+
+                      <div class="hide-menu">
+                          <ul class="speech-bubble">
+                              <li><a href="./doctors.html">닥터스</a></li>
+                              <li><a href="./another.html">또하나의가족</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="menu_culture">
-                      <a href="#">CULTURE</a>
-                      <ul>
-                          <li>헥톤인의 다짐</li>
-                          <li>헥톤인의 혜택</li>
-                          <li>채용문의</li>
-                      </ul>
+                      <div class="menu_border">
+                          <a href="./culture.html">CULTURE</a>
+                      </div>
+                      <div class="hide-menu">
+                          <ul class="speech-bubble">
+                              <li>
+                                  <a href="./culture.html#culture_promise">헥톤인의 다짐</a>
+                              </li>
+                              <li>
+                                  <a href="./culture.html#culture_benefit">헥톤인의 혜택</a>
+                              </li>
+                              <li><a href="./culture.html#qna">채용문의</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="menu_contact">
-                      <a href="#">CONTACT</a>
-                      <ul>
-                          <li>제휴/서비스 문의</li>
-                          <li>오시는길</li>
-                      </ul>
+                      <div class="menu_border">
+                          <a href="./contact.html">CONTACT</a>
+                      </div>
+                      <div class="hide-menu">
+                          <ul class="speech-bubble">
+                              <li><a href="./contact.html#qna_form">제휴/서비스 문의</a></li>
+                              <li><a href="./contact.html#information">오시는길</a></li>
+                          </ul>
+                      </div>
                   </li>
               </ul>
           </div>
       </div>
   </header>
+  <script src="../js/header.js"></script>
   <main>
     <!-- hecton_logo -->
     <div class="hecton_logo" data-aos="fade-up" data-aos-duration="1000">
@@ -75,7 +96,7 @@
       <div class="story_text">
         <p>STORY</p>
         <p>헥톤프로젝트</p> 
-          <a class="arrow" href="./story.html">알아보기 &emsp; →</a>
+          <a class="arrow" href="./story.html">알아보기 &emsp;</a>
       </div>
     </div>
 
@@ -84,7 +105,7 @@
       <div class="doctors_text">
         <p>PROJECT</p>
         <P>닥터스</P>
-          <a class="arrow" href="./doctors.html">알아보기 &emsp; →</a>
+          <a class="arrow" href="./doctors.html">알아보기 &emsp;</a>
       </div>
       <img src="https://www.hectonproject.com/img/main1.jpg" alt="doctors_img"
       data-aos="fade-up" data-aos-duration="1000">
@@ -97,7 +118,7 @@
       <div class="family_text">
         <p>PROJECT</p>
         <P>또하나의가족</P>
-          <a class="arrow" href="./another.html">알아보기 &emsp; →</a>
+          <a class="arrow" href="./another.html">알아보기 &emsp;</a>
       </div>
     </div>
 
@@ -106,7 +127,7 @@
       <div class="culture_text">
         <p>CULTURE</p>
         <P>헥톤컬쳐</P>
-          <a class="arrow" href="./culture.html">알아보기 &emsp; →</a>
+          <a class="arrow" href="./culture.html">알아보기 &emsp;</a>
       </div>
       <img src="https://www.hectonproject.com/img/main3.jpg" alt="culture_img"
       data-aos="fade-up" data-aos-duration="1000">
@@ -186,7 +207,6 @@
           </ul>
       </div>
     </footer>
-    <script src="../js/main.js"></script>
   </body>
   <script>
     AOS.init();
