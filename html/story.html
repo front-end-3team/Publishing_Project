@@ -686,19 +686,19 @@
             AOS.init();
 
             // 지도 탭
-            const tabItem = document.querySelectorAll('.agency_map_btn');
-            const tabInner = document.querySelectorAll('.agency_map_table_box');
+            const tabItem = document.querySelectorAll(".agency_map_btn");
+            const tabInner = document.querySelectorAll(".agency_map_table_box");
             console.log(tabItem);
             tabItem.forEach((tab, idx) => {
-                tab.addEventListener('click', function () {
+                tab.addEventListener("click", function () {
                     tabInner.forEach((inner) => {
-                        inner.classList.remove('active');
+                        inner.classList.remove("active");
                     });
                     tabItem.forEach((item) => {
-                        item.classList.remove('active');
+                        item.classList.remove("active");
                     });
-                    tabItem[idx].classList.add('active');
-                    tabInner[idx].classList.add('active');
+                    tabItem[idx].classList.add("active");
+                    tabInner[idx].classList.add("active");
                 });
             });
         </script>
