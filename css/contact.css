@@ -226,7 +226,6 @@ button > p {
 }
 
 .hecton_number > p:last-child {
-    /* margin: 0 10px 0 0px; */
     padding: 0 0px 0 10px;
 }
 

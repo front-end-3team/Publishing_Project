@@ -20,238 +20,238 @@
                 </div>
 
                 <!-- Menu -->
-                <div id="menu">
+                <div class="menu">
                     <ul>
                         <li class="menu_story">
-                            <a href="./story.html">STORY</a>
-                            <ul class="speech-bubble">
-                                <li><a href="">헥톤컬쳐</a></li>
-                                <li><a href="">헥톤역사</a></li>
-                                <li><a href="">헥톤CI</a></li>
-                                <li><a href="">헥톤대리점</a></li>
-                                <li><a href="">헥톤가족</a></li>
-                            </ul>
+                            <a class="story_menu" href="./story.html">STORY</a>
+                            <div class="hide-menu">
+                                <ul class="speech-bubble">
+                                    <li><a href="./story.html#story_culture">헥톤컬쳐</a></li>
+                                    <li><a href="./story.html#story_history">헥톤역사</a></li>
+                                    <li><a href="./story.html#story_ci">헥톤CI</a></li>
+                                    <li><a href="./story.html#story_agency">헥톤대리점</a></li>
+                                    <li><a href="./story.html#story_family">헥톤가족</a></li>
+                                </ul>
+                            </div>
                         </li>
+
                         <li class="menu_project">
-                            <a href="./doctors.html">PROJECT</a>
-                            <ul>
-                                <li><a href="">닥터스</a></li>
-                                <li><a href="">또하나의가족</a></li>
-                            </ul>
+                            <div class="menu_border">
+                                <a href="./doctors.html">PROJECT</a>
+                            </div>
+
+                            <div class="hide-menu">
+                                <ul class="speech-bubble">
+                                    <li><a href="./doctors.html">닥터스</a></li>
+                                    <li><a href="./another.html">또하나의가족</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="menu_culture">
-                            <a href="./culture.html">CULTURE</a>
-                            <ul>
-                                <li><a href="">헥톤인의 다짐</a></li>
-                                <li><a href="">헥톤인의 혜택</a></li>
-                                <li><a href="">채용문의</a></li>
-                            </ul>
+                            <div class="menu_border">
+                                <a href="./culture.html">CULTURE</a>
+                            </div>
+                            <div class="hide-menu">
+                                <ul class="speech-bubble">
+                                    <li>
+                                        <a href="./culture.html#culture_promise">헥톤인의 다짐</a>
+                                    </li>
+                                    <li>
+                                        <a href="./culture.html#culture_benefit">헥톤인의 혜택</a>
+                                    </li>
+                                    <li><a href="./culture.html#qna">채용문의</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="menu_contact">
-                            <a href="./contact.html">CONTACT</a>
-                            <ul>
-                                <li><a href="">제휴/서비스 문의</a></li>
-                                <li><a href="">오시는길</a></li>
-                            </ul>
+                            <div class="menu_border">
+                                <a href="./contact.html">CONTACT</a>
+                            </div>
+                            <div class="hide-menu">
+                                <ul class="speech-bubble">
+                                    <li><a href="./contact.html#qna_form">제휴/서비스 문의</a></li>
+                                    <li><a href="./contact.html#information">오시는길</a></li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </header>
-    <main>
-        <!-- Service area -->
-        <div id="qna_form" class="service_qna">
-            <div>
-                <!-- Service Title -->
-                <div class="service_qna_title">
-                    <h3>제휴/서비스 문의</h3>
-                    <div>
-                        <p>HectonProject에 관심을 가져주셔서 감사 드립니다.</p>
-                        <p>
-                            내용을 검토한 후 빠른 시일 내에 이메일을 통해 답변을 드리도록
-                            하겠습니다.
-                        </p>
-                    </div>
-                </div>
+        <script src="../js/header.js"></script>
 
-                <div class="service_form">
-                    <!-- Form left -->
-                    <div>
-                        <div class="form_name">
-                            <p class="form_p">이름</p>
-                            <input type="text" placeholder="이름을 입력해 주세요" required />
-                        </div>
-                        <div class="form_number">
-                            <p class="form_p">연락처</p>
-                            <input type="text" placeholder="연락처를 입력해 주세요" required />
-                        </div>
-                        <div class="form_email">
-                            <p class="form_p">이메일</p>
-                            <input type="text" placeholder="이메일을 입력해 주세요" required />
-                        </div>
-                        <div class="form_file">
-                            <p class="form_p">파일 첨부 (선택)</p>
-                            <div>
-                                <input for="file" class="upload-name" id="fileName" readonly />
-                                <label for="file" class="file_button">파일 첨부</label>
-                                <input type="file" id="file" onchange="javascript: document.getElementById('fileName').value = this.value"/>
-                            </div>
-                            <span class="file_alert">
-                                *20MB를 초과할 수 없으며 pdf, doc, docx, ppt, pptx, jpg, png,
-                                zip파일만 가능합니다
-                            </span>
-                        </div>
-                        <div class="form_check">
-                            <strong>개인정보 수집 및 이용에 대한 안내</strong><br>
-                            <span>
-                                당사는 제휴/서비스 문의 대상으로부터 아래와 같이 개인정보를 수집하고
-                                있습니다.
-                            </span>
-                            <span>1. 수집 개인정보 항목<br>&nbsp;&nbsp;(필수) 이름, 연락처, 메일주소, 제목, 내용<br>&nbsp;&nbsp;(선택) 파일첨부</span>
-                            <span>
-                                2. 개인정보의 수집 및 이용목적 : 제휴/서비스 문의에 따른 본인확인 및
-                                원활한 의사소통 경로 확보
-                            </span>
-                            <span>
-                                3. 개인정보의 보유 및 이용기간 : 제휴/서비스 문의 종료 처리
-                                시점으로부터 1개월 간 보관 후 파기합니다.
-                            </span>
-                            <span>
-                                4. 동의 거부권리 안내 : 위와 같은 개인정보 수집 동의를 거부할 수
-                                있습니다. 다만 동의를 거부하는 경우 제휴/서비스 문의 신청이 제한될
-                                수 있습니다. 그 밖의 사항은 당사의 <a href="https://hectonproject.com/term">개인정보처리방침</a>을 준수합니다.
-                            </span>
-                            <div>
-                                <form name="form"> 
-                                <input type="checkbox" class="form_checkbox"/>
-                                <strong class="privacy">개인정보 수집 및 이용에 동의합니다.</strong>
-                                </form>
-                            </div>
+        <main>
+            <!-- Service area -->
+            <div id="qna_form" class="service_qna">
+                <div>
+                    <!-- Service Title -->
+                    <div class="service_qna_title">
+                        <h3>제휴/서비스 문의</h3>
+                        <div>
+                            <p>HectonProject에 관심을 가져주셔서 감사 드립니다.</p>
+                            <p>
+                                내용을 검토한 후 빠른 시일 내에 이메일을 통해 답변을 드리도록
+                                하겠습니다.
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Form right -->
-                    <div>
+                    <div class="service_form">
+                        <!-- Form left -->
                         <div>
-                            <p class="form_p">제목</p>
-                            <input type="text" placeholder="제목을 입력해 주세요" required />
+                            <div class="form_name">
+                                <p class="form_p">이름</p>
+                                <input type="text" placeholder="이름을 입력해 주세요" required />
+                            </div>
+                            <div class="form_number">
+                                <p class="form_p">연락처</p>
+                                <input type="text" placeholder="연락처를 입력해 주세요" required />
+                            </div>
+                            <div class="form_email">
+                                <p class="form_p">이메일</p>
+                                <input type="text" placeholder="이메일을 입력해 주세요" required />
+                            </div>
+                            <div class="form_file">
+                                <p class="form_p">파일 첨부 (선택)</p>
+                                <div>
+                                    <input for="file" class="upload-name" id="fileName" readonly />
+                                    <label for="file" class="file_button">파일 첨부</label>
+                                    <input type="file" id="file" onchange="javascript: document.getElementById('fileName').value = this.value"/>
+                                </div>
+                                <span class="file_alert">
+                                    *20MB를 초과할 수 없으며 pdf, doc, docx, ppt, pptx, jpg, png,
+                                    zip파일만 가능합니다
+                                </span>
+                            </div>
+                            <div class="form_check">
+                                <strong>개인정보 수집 및 이용에 대한 안내</strong><br>
+                                <span>
+                                    당사는 제휴/서비스 문의 대상으로부터 아래와 같이 개인정보를 수집하고
+                                    있습니다.
+                                </span>
+                                <span>1. 수집 개인정보 항목<br>&nbsp;&nbsp;(필수) 이름, 연락처, 메일주소, 제목, 내용<br>&nbsp;&nbsp;(선택) 파일첨부</span>
+                                <span>
+                                    2. 개인정보의 수집 및 이용목적 : 제휴/서비스 문의에 따른 본인확인 및
+                                    원활한 의사소통 경로 확보
+                                </span>
+                                <span>
+                                    3. 개인정보의 보유 및 이용기간 : 제휴/서비스 문의 종료 처리
+                                    시점으로부터 1개월 간 보관 후 파기합니다.
+                                </span>
+                                <span>
+                                    4. 동의 거부권리 안내 : 위와 같은 개인정보 수집 동의를 거부할 수
+                                    있습니다. 다만 동의를 거부하는 경우 제휴/서비스 문의 신청이 제한될
+                                    수 있습니다. 그 밖의 사항은 당사의 <a href="https://hectonproject.com/term">개인정보처리방침</a>을 준수합니다.
+                                </span>
+                                <div>
+                                    <form name="form"> 
+                                    <input type="checkbox" class="form_checkbox"/>
+                                    <strong class="privacy">개인정보 수집 및 이용에 동의합니다.</strong>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Form right -->
                         <div>
-                            <p class="form_p">내용</p>
-                            <textarea type="text" class="form_content" required></textarea>
-                        </div>
-                        <div>
-                            <button type="button" class="service_btn">
-                                <p>제휴/서비스 문의 보내기</p>
-                            </button>
+                            <div>
+                                <p class="form_p">제목</p>
+                                <input type="text" placeholder="제목을 입력해 주세요" required />
+                            </div>
+                            <div>
+                                <p class="form_p">내용</p>
+                                <textarea type="text" class="form_content" required></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="service_btn">
+                                    <p>제휴/서비스 문의 보내기</p>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-        <!-- Info area -->
-        <div id="information" class="hecton_info">
-            <div class="info">
-                <h3>오시는 길</h3>
-                <div class="info_address_n_num">
-                    <p>07335 서울특별시 영등포구 여의대로 108, 31층 (여의도동, 파크원타워2)</p>
-                    <p>31F, 108, Yeoui-daero, Yeongdeungpo-gu, Seoul, Republic of Korea</p>
-                    <div class="hecton_number">
-                        <p><strong>T</strong> 02-782-0068</p>
-                        <p><strong>F</strong> 02-782-0095</p>
+        
+            <!-- Info area -->
+            <div id="information" class="hecton_info">
+                <div class="info">
+                    <h3>오시는 길</h3>
+                    <div class="info_address_n_num">
+                        <p>07335 서울특별시 영등포구 여의대로 108, 31층 (여의도동, 파크원타워2)</p>
+                        <p>31F, 108, Yeoui-daero, Yeongdeungpo-gu, Seoul, Republic of Korea</p>
+                        <div class="hecton_number">
+                            <p><strong>T</strong> 02-782-0068</p>
+                            <p><strong>F</strong> 02-782-0095</p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- 지도 -->
+                <div id="map"></div>
             </div>
-
-            <div id="map"></div>
-            <script>
-                var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-                mapOption = { 
-                    center: new kakao.maps.LatLng(37.526968778968936, 126.92801518145679), // 지도의 중심좌표 헥톤 프로젝트 위치 좌표
-                    level: 6 // 지도의 확대 레벨
-                };
-
-                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다.
-
-                var imageSrc = 'https://hectonproject.com/img/pin.png', // 마커이미지의 주소입니다.   
-                    imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다.
-                    imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-                // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다.
-                var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-                    markerPosition = new kakao.maps.LatLng(37.526968778968936, 126.92801518145679); // 마커가 표시될 위치입니다.
-
-                // 마커를 생성합니다.
-                var marker = new kakao.maps.Marker({
-                    position: markerPosition, 
-                    image: markerImage // 마커이미지 설정 
-                });
-
-                // 마커가 지도 위에 표시되도록 설정합니다.
-                marker.setMap(map);  
-            </script>
-        </div>
+        </main>
+        <script src="../js/contact.js"></script>
 
         <footer>
             <div class="footer_wrap">
-                <div class="footer_logo">
-                      <img src="https://hectonproject.com/icon/logo.svg" width="110px"></img>
-                  </div>
-                  <div class="footer_list">
+              <div class="footer_logo">
+                    <img src="https://hectonproject.com/icon/logo.svg" width="110px"></img>
+                </div>
+                <div class="footer_list">
                     <ul>
                         <li >
-                          <a href="#">STORY</a>
+                          <a href="./story.html">STORY</a>
                         </li>
                         <li>
-                          <a href="#">헥톤컬쳐</a>
+                          <a href="./story.html#story_culture">헥톤컬쳐</a>
                         </li>
                         <li>
-                          <a href="#">헥톤역사</a>
+                          <a href="./story.html#story_history">헥톤역사</a>
                         </li>
                         <li>
-                          <a href="#">헥톤CI</a>
+                          <a href="./story.html#story_ci">헥톤CI</a>
                         </li>
                         <li>
-                          <a href="#">헥톤대리점</a>
+                          <a href="./story.html#story_agency">헥톤대리점</a>
                         </li>
                         <li>
-                          <a href="#">헥톤가족</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                          <a href="#">PROJECT</a>
-                        </li>
-                        <li>
-                          <a href="#">닥터스</a>
-                        </li>
-                        <li>
-                          <a href="#">또하나의가족</a>
+                          <a href="./story.html#story_family">헥톤가족</a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                          <a href="#">CULTURE</a>
+                          <a href="./doctors.html">PROJECT</a>
                         </li>
                         <li>
-                          <a href="#">헥톤인의 다짐</a>
+                          <a href="./doctors.html">닥터스</a>
                         </li>
                         <li>
-                          <a href="#">헥톤인의 혜택</a>
-                        </li>
-                        <li>
-                          <a href="#">채용문의</a>
+                          <a href="./another.html">또하나의가족</a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                          <a href="#">CONTACT</a>
+                          <a href="./culture.html">CULTURE</a>
                         </li>
                         <li>
-                          <a href="#">제휴/서비스 문의</a>
+                          <a href="./culture.html#culture_promise">헥톤인의 다짐</a>
                         </li>
                         <li>
-                          <a href="#">오시는 길</a>
+                          <a href="./culture.html#culture_benefit">헥톤인의 혜택</a>
+                        </li>
+                        <li>
+                          <a href="./culture.html#qna">채용문의</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                          <a href="./contact.html">CONTACT</a>
+                        </li>
+                        <li>
+                          <a href="./contact.html#qna_form">제휴/서비스 문의</a>
+                        </li>
+                        <li>
+                          <a href="./contact.html#information">오시는 길</a>
                         </li>
                     </ul>
                 </div>
@@ -265,9 +265,6 @@
                         <li><a href="https://hectonproject.com/term">개인정보처리방침</a></li>
                     </ul>
                 </div>
-            </div>
         </footer>
-        <script src="../js/contact.js"></script>
-
     </body>
 </html>

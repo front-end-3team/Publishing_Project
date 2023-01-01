@@ -32,12 +32,9 @@ header {
 
 /* Menu */
 
-/* Menu */
-
 .menu {
     display: flex;
     font: bold 16px;
-    /* background: #fff; */
     color: #fff;
     line-height: 40px;
     text-align: center;
@@ -55,7 +52,6 @@ a {
 .menu > ul > li {
     float: left;
     width: 160px;
-    /* position: relative; */
 }
 
 .menu_border {
@@ -63,14 +59,14 @@ a {
 }
 
 .menu > ul > li > ul {
-    /* display: none; */
-    /* position: absolute; */
     font-size: 14px;
     background: rgb(255, 255, 255);
     text-align: left;
     padding: 10px 30px 10px 10px;
     line-height: 1.2rem;
 }
+
+/* 숨겨진 메뉴 부분 */
 
 .hide-menu {
     overflow: hidden;
@@ -80,6 +76,8 @@ a {
 .hide-menu > ul li {
     text-align: left;
 }
+
+/* 말풍선 모양 css */
 
 .speech-bubble {
     box-shadow: 0 0 10px rgb(0 0 0 / 15%);
