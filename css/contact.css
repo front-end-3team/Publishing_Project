@@ -84,7 +84,7 @@ input:focus {
     display: inline-block;
 }
 
-.form_file input[type='file'] {
+.form_file input[type="file"] {
     position: absolute;
     width: 0;
     height: 0;
@@ -145,13 +145,13 @@ a:visited {
     margin-top: 10px;
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
     height: 1.3rem;
     width: 1.3rem;
     border: 2px solid #000;
 }
 
-input[type='checkbox']:checked {
+input[type="checkbox"]:checked {
     accent-color: #00b388;
     border-color: rgba(255, 255, 255, 0.3);
     color: white;
