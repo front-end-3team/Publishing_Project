@@ -46,12 +46,18 @@ main {
     margin-top: 20px;
 }
 /* another_main_img */
-.another_main_img > img {
+/* .another_main_img > img {
     width: 100%;
     background-color: white;
 }
 .another_main_img {
     height: 100%;
+} */
+.another_main_img {
+    height: 100vh;
+    background: url(https://hectonproject.com/_next/static/media/ddoga.bb59f3e4.jpg) no-repeat
+        center;
+    background-size: cover;
 }
 /* another_video */
 .another_video {
@@ -195,7 +201,6 @@ main {
     font-weight: bold;
     padding: 20px 0 0 15px;
     position: relative;
-    cursor: pointer;
 }
 .another_img_bottom_text i {
     position: absolute;
