@@ -1,3 +1,49 @@
+/* 유효성 검사 ---------------------------------------------------- */
+
+const $input = document.querySelector('input');
+const $numInput = document.querySelector('.input_num');
+const $emailInput = document.querySelector('.input_email');
+
+let emailTextCheck =
+    /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+
+console.log($input);
+console.log($numInput);
+console.log($emailInput);
+
+function checkform() {
+    if ($input.value == '') {
+        alert('이 입력란을 작성하세요.');
+        return false;
+    }
+
+    if ($numInput.value == '') {
+        alert('이 입력란을 작성하세요.');
+        return false;
+    } else if ($numInput.value != Number()) {
+        alert('숫자를 입력하세요.');
+        $numInput.select();
+    }
+
+    if (emailTextCheck.test($emailInput) == false) {
+        alert(`이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`);
+        return false;
+    }
+}
+
+/* 체크박스 체크시 버튼 활성화 ------------------------------------- */
+const $checkbox = document.querySelector('.form_checkbox');
+const $servicebtn = document.querySelector('.service_btn');
+
+console.log($checkbox);
+console.log($servicebtn);
+
+$checkbox.addEventListener('click', () => {
+    if ($checkbox.checked) {
+        $servicebtn.style.backgroundColor = '#49504e';
+    }
+});
+
 /* 지도 마커 표시하는 방법 ----------------------------------------- */
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div
     mapOption = {
@@ -22,16 +68,3 @@ var marker = new kakao.maps.Marker({
 
 // 마커가 지도 위에 표시되도록 설정합니다.
 marker.setMap(map);
-
-/* 체크박스 체크시 버튼 활성화 ------------------------------------- */
-const $checkbox = document.querySelector('.form_checkbox');
-const $servicebtn = document.querySelector('.service_btn');
-
-console.log($checkbox);
-console.log($servicebtn);
-
-$checkbox.addEventListener('click', () => {
-    if ($checkbox.checked) {
-        $servicebtn.style.backgroundColor = '#49504e';
-    }
-});
