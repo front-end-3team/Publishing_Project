@@ -84,7 +84,7 @@
 
         <main>
             <!-- Service area -->
-            <div id="qna_form" class="service_qna">
+            <form id="qna_form" class="service_qna" onsubmit="return checkform()">
                 <div>
                     <!-- Service Title -->
                     <div class="service_qna_title">
@@ -103,15 +103,15 @@
                         <div>
                             <div class="form_name">
                                 <p class="form_p">이름</p>
-                                <input type="text" placeholder="이름을 입력해 주세요" required />
+                                <input class="input_name" type="text" placeholder="이름을 입력해 주세요" required />
                             </div>
                             <div class="form_number">
                                 <p class="form_p">연락처</p>
-                                <input type="text" placeholder="연락처를 입력해 주세요" required />
+                                <input class="input_num" type="text" placeholder="연락처를 입력해 주세요" required />
                             </div>
                             <div class="form_email">
                                 <p class="form_p">이메일</p>
-                                <input type="text" placeholder="이메일을 입력해 주세요" required />
+                                <input class="input_email" type="text" placeholder="이메일을 입력해 주세요" required />
                             </div>
                             <div class="form_file">
                                 <p class="form_p">파일 첨부 (선택)</p>
@@ -165,14 +165,14 @@
                                 <textarea type="text" class="form_content" required></textarea>
                             </div>
                             <div>
-                                <button type="button" class="service_btn">
+                                <button type="submit" class="service_btn">
                                     <p>제휴/서비스 문의 보내기</p>
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         
             <!-- Info area -->
             <div id="information" class="hecton_info">
