@@ -13,13 +13,13 @@ console.log($emailInput);
 
 $emailInput.addEventListener('invalid', () => {
     if ($emailInput.value == '') {
-        $emailInput.setCustomValidity('이 입력란을 작성하세요.');
+        setCustomValidity('이 입력란을 작성하세요.');
     } else if ($emailInput != '' && emailTextCheck.test($emailInput.value) == false) {
         $emailInput.setCustomValidity(
             `이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`
         );
-        return true;
-    } else return true;
+        return;
+    }
 });
 
 // if ($emailInput != '' && !emailTextCheck.test($emailInput))
