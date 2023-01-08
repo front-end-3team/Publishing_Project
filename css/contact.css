@@ -248,12 +248,12 @@ button > p {
 .info > h3 {
     font-size: 2.3rem;
     margin-bottom: 2rem;
-    letter-spacing: -2px;
+    letter-spacing: -0.5px;
 }
 
 .info_address_n_num {
     font-size: 1.2rem;
-    letter-spacing: -2px;
+    letter-spacing: -0.5px;
 }
 
 .info_address_n_num > p {
