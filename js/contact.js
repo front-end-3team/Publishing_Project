@@ -1,35 +1,64 @@
 /* 유효성 검사 ---------------------------------------------------- */
 
-const $input = document.querySelector('input');
+const $input = document.querySelector('.input_name');
 const $numInput = document.querySelector('.input_num');
 const $emailInput = document.querySelector('.input_email');
 
 let emailTextCheck =
-    /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+    /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
 
 console.log($input);
 console.log($numInput);
 console.log($emailInput);
 
-function checkform() {
-    if ($input.value == '') {
-        alert('이 입력란을 작성하세요.');
-        return false;
-    }
+$emailInput.addEventListener('invalid', () => {
+    if ($emailInput.value == '') {
+        $emailInput.setCustomValidity('이 입력란을 작성하세요.');
+    } else if ($emailInput != '' && emailTextCheck.test($emailInput.value) == false) {
+        $emailInput.setCustomValidity(
+            `이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`
+        );
+        return true;
+    } else return true;
+});
 
-    if ($numInput.value == '') {
-        alert('이 입력란을 작성하세요.');
-        return false;
-    } else if ($numInput.value != Number()) {
-        alert('숫자를 입력하세요.');
-        $numInput.select();
-    }
+// if ($emailInput != '' && !emailTextCheck.test($emailInput))
+//     $emailInput.setCustomValidity(
+//         `'@' 뒷 부분을 입력해 주세요. '${$emailInput.value}'(이)가 완전하지 않습니다.`
+//     );
+// else if (emailTextCheck.matches($emailInput)) return;
 
-    if (emailTextCheck.test($emailInput) == false) {
-        alert(`이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`);
-        return false;
-    }
-}
+// $emailInput.addEventListener('invalid', (event) => {
+//     if (emailTextCheck.test($emailInput) == false) {
+//         event.setCustomValidity(
+//             `이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`
+//         );
+//         return;
+//     }
+// });
+
+// function checkform() {
+//     if ($input.value == '') {
+//         alert('이 입력란을 작성하세요.');
+//         return false;
+//     }
+
+//     if ($numInput.value == '') {
+//         alert('이 입력란을 작성하세요.');
+//         return false;
+//     } else if ($numInput.value != Number()) {
+//         alert('숫자를 입력하세요.');
+//         $numInput.select();
+//     }
+
+//     if (emailTextCheck.test($emailInput) == false) {
+//         alert(`이메일 주소에 '@'를 포함해 주세요. '${$emailInput.value}'에 '@'가 없습니다.`);
+//         $emailInput.select();
+//         return false;
+//     }
+// }
+
+// oninvaild;
 
 /* 체크박스 체크시 버튼 활성화 ------------------------------------- */
 const $checkbox = document.querySelector('.form_checkbox');
@@ -40,7 +69,9 @@ console.log($servicebtn);
 
 $checkbox.addEventListener('click', () => {
     if ($checkbox.checked) {
-        $servicebtn.style.backgroundColor = '#49504e';
+        $servicebtn.disabled = false;
+    } else {
+        $servicebtn.disabled = true;
     }
 });
 

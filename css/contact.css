@@ -7,7 +7,6 @@
     width: 1080px;
     margin: 200px auto;
     color: #1b1e1c;
-    /* padding-top: 10rem; */
 }
 
 /* Service Title */
@@ -28,14 +27,13 @@
 .service_qna_title > div > p {
     font-size: 1.2rem;
     font-family: Spoqa Han Sans, sans-serif;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 
 .service_form {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 0;
-    letter-spacing: -2px;
 }
 
 input {
@@ -52,6 +50,12 @@ input:focus {
     outline: none;
 }
 
+input[type='number']::-webkit-inner-spin-button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
 /* Form left */
 .service_form > div {
     width: 33rem;
@@ -61,7 +65,7 @@ input:focus {
     font-size: 16.5px;
     color: #49504e;
     margin-bottom: 7px;
-    font-weight: 540;
+    font-weight: 549;
 }
 
 .service_form > div > div {
@@ -84,7 +88,7 @@ input:focus {
     display: inline-block;
 }
 
-.form_file input[type="file"] {
+.form_file input[type='file'] {
     position: absolute;
     width: 0;
     height: 0;
@@ -133,6 +137,7 @@ input:focus {
     line-height: 1.3rem;
     display: block;
     font-weight: 300;
+    letter-spacing: -1px;
 }
 
 a:visited {
@@ -145,16 +150,36 @@ a:visited {
     margin-top: 10px;
 }
 
-input[type="checkbox"] {
-    height: 1.3rem;
-    width: 1.3rem;
-    border: 2px solid #000;
+input[type='checkbox'] {
+    display: none;
 }
 
-input[type="checkbox"]:checked {
-    accent-color: #00b388;
-    border-color: rgba(255, 255, 255, 0.3);
-    color: white;
+label[for='check'] {
+    display: inline-block;
+    width: 1.55rem;
+    height: 1.55rem;
+    border: 2px solid #1b1e1c;
+    position: relative;
+    border-radius: 0.15rem;
+}
+
+label[for='check']::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0.4rem;
+    height: 0.9rem;
+    transform: rotate(45deg);
+    border: 4px solid #fff;
+    border-top: none;
+    border-left: none;
+    bottom: 0.3rem;
+    left: 0.4rem;
+}
+
+input[id='check']:checked + label[for='check'] {
+    background-color: #00b388;
+    border: #fff;
 }
 
 .privacy {
@@ -173,7 +198,7 @@ textarea {
     box-shadow: none;
     resize: none;
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border: 1px solid #1b1e1c;
 }
 
@@ -182,10 +207,27 @@ textarea:focus {
     outline: none;
 }
 
+textarea::-webkit-scrollbar {
+    width: 7.5px;
+    height: 32rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #00b388;
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: black;
+}
+
 button {
     width: 33rem;
     height: 4.05rem;
-    background-color: #b3b5b4;
+    background-color: #49504e;
+}
+
+.service_btn:disabled {
+    background-color: #8a8c8b;
 }
 
 button > p {
